@@ -3,93 +3,74 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Monetize360 Console</title>
+<title>Monetize360</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#eef1f4;--surface:#fff;--ink:#1b2430;--muted:#5d6877;--rule:#d9dee5;--acc:#0e5e6f;--acc-d:#0a4856;--acc-l:#e3f0f3;--up:#0f7b4f;--up-l:#e4f4ec;--down:#b3341f;--down-l:#fbeae6;--warn:#8a5200;--warn-l:#fdf1dc}
-*{box-sizing:border-box}
-[hidden]{display:none!important}
-body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 "Segoe UI",system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif}
-.wrap{max-width:1100px;margin:0 auto;padding:0 24px}
-header{background:var(--surface);border-bottom:1px solid var(--rule)}
-.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:16px 24px}
-.brand{display:flex;align-items:center;gap:12px}
-.mark{width:36px;height:36px;border-radius:8px;background:var(--acc);color:#fff;display:grid;place-items:center;font:700 17px Georgia,serif}
-.brand h1{margin:0;font-size:18px;line-height:1.2}
-.brand p{margin:0;font-size:13px;color:var(--muted)}
-.ctl{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
-.ctl label{font-size:13px;color:var(--muted)}
-select,input,textarea{font:inherit;color:var(--ink);background:#fff;border:1px solid #c3cad4;border-radius:6px;padding:8px 10px;width:100%}
-.ctl select{width:170px}
-select:focus,input:focus,textarea:focus,button:focus-visible{outline:2px solid var(--acc);outline-offset:1px;border-color:var(--acc)}
-.pill{font-size:12.5px;padding:3px 10px;border-radius:99px;background:var(--warn-l);color:var(--warn);white-space:nowrap}
-.pill.ok{background:var(--up-l);color:var(--up)}.pill.off{background:var(--down-l);color:var(--down)}
-.btn{font:inherit;font-weight:600;font-size:14px;border:1px solid transparent;border-radius:6px;padding:8px 16px;cursor:pointer;background:var(--acc);color:#fff}
-.btn:hover{background:var(--acc-d)}.btn:disabled{opacity:.6;cursor:wait}
-.btn.ghost{background:#fff;color:var(--ink);border-color:#c3cad4}.btn.ghost:hover{background:#f4f6f8}
-.btn.amber{background:#fff;color:var(--warn);border-color:#e3b66a;padding:5px 12px;font-size:13px}.btn.amber:hover{background:var(--warn-l)}
-.btn.link{background:none;border:0;color:var(--acc);padding:0;font-weight:600}
-nav.tabs{display:flex;gap:4px;margin:24px 0 20px;border-bottom:1px solid var(--rule)}
-.tab{font:inherit;font-weight:600;color:var(--muted);background:none;border:0;border-bottom:3px solid transparent;padding:10px 16px;cursor:pointer;margin-bottom:-1px}
-.tab:hover{color:var(--ink)}.tab.on{color:var(--acc);border-bottom-color:var(--acc)}
-.tab small{font-weight:600;background:var(--rule);color:var(--ink);border-radius:99px;padding:1px 8px;margin-left:6px;font-size:12px}
-h2{font-size:17px;margin:0 0 4px}
-.sub{color:var(--muted);font-size:13.5px;margin:0 0 16px}
-.panel{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:22px}
-.panel+.panel{margin-top:20px}
-.split{display:grid;grid-template-columns:5fr 7fr;gap:20px;align-items:start}
-.fields{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.fld label,.form label{display:block;font-size:13px;color:var(--muted);margin-bottom:4px;text-transform:capitalize}
-.actions{display:flex;align-items:center;justify-content:space-between;margin-top:20px;gap:12px}
+:root{--bg:#f8f9fa;--s:#fff;--ink:#202124;--mut:#5f6368;--line:#dadce0;--blue:#1a73e8;--blue-d:#1765cc;--blue-l:#e8f0fe;--green:#188038;--green-l:#e6f4ea;--red:#d93025;--red-l:#fce8e6;--amb:#b06000;--amb-l:#fef7e0}
+*{box-sizing:border-box}[hidden]{display:none!important}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 Inter,"Google Sans",Roboto,"Segoe UI",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+header{background:var(--s);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:14px;padding-bottom:14px}
+.brand{display:flex;align-items:center;gap:10px;font-size:20px;font-weight:500}
+.mark{width:32px;height:32px;border-radius:8px;background:var(--blue);color:#fff;display:grid;place-items:center;font-weight:600;font-size:16px}
+.ctl{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.st{display:flex;align-items:center;gap:6px;color:var(--mut);font-size:13px}
+.dot{width:8px;height:8px;border-radius:50%;background:#f9ab00}.dot.ok{background:var(--green)}.dot.off{background:var(--red)}
+select,input,textarea{font:inherit;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:8px;padding:9px 12px;width:100%;transition:border-color .15s}
+select:hover,input:hover,textarea:hover{border-color:#bdc1c6}
+select:focus,input:focus,textarea:focus{outline:0;border-color:var(--blue);box-shadow:0 0 0 3px var(--blue-l)}
+.ctl select{width:auto;min-width:170px}
+.btn{font:inherit;font-weight:500;border:1px solid transparent;border-radius:8px;padding:9px 20px;cursor:pointer;background:var(--blue);color:#fff}
+.btn:hover{background:var(--blue-d)}.btn:disabled{opacity:.6;cursor:wait}
+.btn.ghost{background:#fff;color:var(--blue);border-color:var(--line)}.btn.ghost:hover{background:var(--blue-l)}
+.btn:focus-visible,.tab:focus-visible,.lnk:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.lnk{font:inherit;font-weight:500;background:none;border:0;color:var(--blue);cursor:pointer;padding:4px 0}.lnk:hover{text-decoration:underline}.lnk.red{color:var(--red)}
+nav.tabs{display:flex;gap:8px;margin:20px 0 24px;border-bottom:1px solid var(--line)}
+.tab{font:inherit;font-weight:500;color:var(--mut);background:none;border:0;border-bottom:3px solid transparent;padding:10px 12px;cursor:pointer;margin-bottom:-1px}
+.tab:hover{color:var(--ink)}.tab.on{color:var(--blue);border-bottom-color:var(--blue)}
+.tab small{margin-left:6px;font-size:12px;background:#f1f3f4;color:var(--mut);border-radius:10px;padding:1px 7px}
+h2{font-size:16px;font-weight:500;margin:0 0 4px}.mt{margin-top:28px}
+.sub,.mut{color:var(--mut);font-size:13px}.sub{margin:0 0 20px}
+.card{background:var(--s);border:1px solid var(--line);border-radius:12px;padding:24px}.card+.card{margin-top:24px}
+.split{display:grid;grid-template-columns:5fr 6fr;gap:24px;align-items:start}
+.fields,.form{display:grid;gap:16px}.fields{grid-template-columns:1fr 1fr}.form{grid-template-columns:repeat(6,1fr)}
+.c2{grid-column:span 2}.c3{grid-column:span 3}.c6{grid-column:span 6}
+label{display:block;font-size:13px;color:var(--mut);margin-bottom:6px}
+.actions{display:flex;align-items:center;justify-content:space-between;margin-top:24px;gap:12px}
 textarea{font-family:Consolas,"Courier New",monospace;font-size:13px;min-height:200px;resize:vertical}
 table{width:100%;border-collapse:collapse}
-th{text-align:left;font-size:13px;font-weight:600;color:var(--muted);padding:8px 10px;border-bottom:1px solid var(--rule)}
-td{padding:12px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
-tr:last-child td{border-bottom:0}
-code{font:13px Consolas,"Courier New",monospace;background:#f0f3f6;padding:1px 6px;border-radius:4px}
-.rid{font-weight:700;color:var(--acc)}
-.prio{display:inline-block;min-width:26px;text-align:center;border:1px solid var(--rule);border-radius:6px;padding:0 6px;font-weight:600}
-.dates{font-size:12.5px;color:var(--muted)}
-.guard{margin-top:16px;padding:12px 14px;background:var(--acc-l);border-radius:6px;font-size:13.5px}
-.form{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
-.form .c2{grid-column:span 2}.form .c3{grid-column:span 3}.form .c6{grid-column:span 6}
-.hint{font-size:12.5px;margin-top:4px;min-height:18px;color:var(--muted)}.hint.warn{color:var(--warn)}
-.ledger{background:var(--surface);border:1px solid var(--rule);border-top:4px solid var(--acc);border-radius:10px;padding:22px}
-.empty{color:var(--muted);text-align:center;padding:48px 16px}
-.empty b{display:block;color:var(--ink);font-size:16px;margin-bottom:4px}
-.big{font:700 46px/1.1 Georgia,"Times New Roman",serif;font-variant-numeric:tabular-nums;margin:2px 0 8px}
-.lbl{font-size:13px;color:var(--muted)}
-.delta{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:99px;background:#eef1f4}
-.delta.up{background:var(--up-l);color:var(--up)}.delta.down{background:var(--down-l);color:var(--down)}
-.steps{list-style:none;margin:10px 0 0;padding:0;font-variant-numeric:tabular-nums}
-.steps li{display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-bottom:1px dashed #c3cad4}
-.steps li.total{border-bottom:0;border-top:2px solid var(--ink);margin-top:6px;font-weight:700;font-size:16px}
-.steps .why span{display:block;font-size:13px;color:var(--muted);font-weight:400}
-.pos{color:var(--up);font-weight:600}.neg{color:var(--down);font-weight:600}
-.note{margin-top:14px;padding:10px 14px;border-radius:6px;font-size:13.5px}
-.note.warn{background:var(--warn-l);color:var(--warn)}.note.bad{background:var(--down-l);color:var(--down)}
-.ver{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:14px 0;border-bottom:1px solid var(--rule)}
-.ver:last-child{border-bottom:0}.ver:first-child{padding-top:0}
-.ver .vn{font-weight:700;color:var(--acc);margin-right:8px}
-.ver .meta{font-size:13px;color:var(--muted);margin-top:2px}
-.cur{font-size:12px;font-weight:600;background:var(--up-l);color:var(--up);padding:1px 9px;border-radius:99px;margin-left:8px}
-#toast{position:fixed;right:20px;bottom:20px;max-width:360px;padding:12px 16px;border-radius:8px;color:#fff;background:var(--ink);box-shadow:0 6px 24px rgba(0,0,0,.2);opacity:0;transform:translateY(8px);transition:opacity .2s,transform .2s;pointer-events:none;z-index:9}
-#toast.show{opacity:1;transform:none}#toast.bad{background:var(--down)}#toast.good{background:var(--up)}
-@media(max-width:820px){.split{grid-template-columns:1fr}.form{grid-template-columns:1fr 1fr}.form .c2,.form .c3,.form .c6{grid-column:span 2}.big{font-size:38px}}
+th{text-align:left;font-size:13px;font-weight:500;color:var(--mut);padding:8px 12px 8px 0;border-bottom:1px solid var(--line)}
+td{padding:14px 12px 14px 0;border-bottom:1px solid var(--line);vertical-align:top}tr:last-child td{border-bottom:0}
+td.r,th.r{text-align:right;padding-right:0}
+.rid{font-weight:500;white-space:nowrap}
+.note{margin-top:16px;padding:12px 14px;border-radius:8px;font-size:13px;background:var(--blue-l)}
+.note.warn{background:var(--amb-l);color:var(--amb)}.note.bad{background:var(--red-l);color:var(--red)}
+.empty{color:var(--mut);text-align:center;padding:48px 16px}.empty b{display:block;color:var(--ink);font-size:16px;font-weight:500;margin-bottom:4px}
+.big{font-size:48px;font-weight:500;letter-spacing:-.02em;line-height:1.1;margin:4px 0 12px;font-variant-numeric:tabular-nums}
+.chip{display:inline-block;font-size:13px;font-weight:500;padding:3px 12px;border-radius:14px;background:#f1f3f4;color:var(--mut)}
+.chip.up{background:var(--green-l);color:var(--green)}.chip.down{background:var(--red-l);color:var(--red)}
+.row{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;padding:14px 0;border-top:1px solid var(--line)}
+.row.total{font-weight:600;font-size:16px;border-top:2px solid var(--ink)}
+.amt{white-space:nowrap;font-weight:500;font-variant-numeric:tabular-nums}.pos{color:var(--green)}.neg{color:var(--red)}
+.ver{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}.ver:last-child{border-bottom:0}.ver:first-child{padding-top:0}
+.cur{font-size:12px;font-weight:500;background:var(--green-l);color:var(--green);padding:1px 8px;border-radius:10px;margin-left:8px}
+#toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,8px);max-width:420px;padding:12px 18px;border-radius:8px;color:#fff;background:var(--ink);box-shadow:0 4px 16px rgba(0,0,0,.2);opacity:0;transition:opacity .2s,transform .2s;pointer-events:none;z-index:9}
+#toast.show{opacity:1;transform:translate(-50%,0)}#toast.bad{background:var(--red)}#toast.good{background:var(--green)}
+@media(max-width:820px){.split{grid-template-columns:1fr}.form{grid-template-columns:1fr 1fr}.c2,.c3,.c6{grid-column:span 2}.big{font-size:40px}}
 @media(prefers-reduced-motion:reduce){#toast{transition:none}}
 </style>
 </head>
 <body>
 <header>
-  <div class="wrap bar" style="max-width:1100px">
-    <div class="brand">
-      <div class="mark">M</div>
-      <div><h1>Monetize360</h1><p>One pricing engine, any industry</p></div>
-    </div>
+  <div class="wrap bar">
+    <div class="brand"><div class="mark">M</div>Monetize360</div>
     <div class="ctl">
-      <span id="status" class="pill">Connecting</span>
-      <label for="domainSelect">Industry</label>
+      <span class="st"><i id="dot" class="dot"></i><span id="stxt">Connecting</span></span>
+      <label for="domainSelect" style="margin:0">Industry</label>
       <select id="domainSelect"></select>
-      <button id="refreshDomainsBtn" class="btn ghost" title="Look for newly added industries">Refresh list</button>
+      <button id="refreshDomainsBtn" class="btn ghost" type="button">Refresh</button>
     </div>
   </div>
 </header>
@@ -98,61 +79,58 @@ code{font:13px Consolas,"Courier New",monospace;background:#f0f3f6;padding:1px 6
   <nav class="tabs" role="tablist">
     <button class="tab on" data-tab="price">Price simulator</button>
     <button class="tab" data-tab="rules">Pricing rules<small id="rulesCount">0</small></button>
-    <button class="tab" data-tab="history">Change history</button>
+    <button class="tab" data-tab="history">History</button>
   </nav>
 
   <section id="tab-price">
     <div class="split">
-      <div class="panel">
+      <div class="card">
         <h2>Scenario</h2>
-        <p class="sub">Describe a situation and the engine prices it using the active rules.</p>
+        <p class="sub">Enter the details and see the price.</p>
         <div id="fields" class="fields"></div>
         <textarea id="contextInput" hidden aria-label="Scenario as JSON"></textarea>
         <div class="actions">
-          <button id="jsonToggle" class="btn link" type="button">Edit as JSON</button>
+          <button id="jsonToggle" class="lnk" type="button">Edit as JSON</button>
           <button id="runBtn" class="btn" type="button">Calculate price</button>
         </div>
       </div>
-      <div class="ledger" id="ledger">
-        <div class="empty"><b>No price yet</b>Fill in the scenario and select Calculate price to see the result and the reason for every adjustment.</div>
-      </div>
+      <div class="card" id="ledger"></div>
     </div>
   </section>
 
   <section id="tab-rules" hidden>
-    <div class="panel">
-      <h2>Active rules</h2>
-      <p class="sub">Rules run in priority order, lowest number first. Each matching rule adjusts the running price.</p>
+    <div class="card">
+      <h2>Rules</h2>
+      <p class="sub">Rules run in order of priority, lowest number first.</p>
       <div style="overflow-x:auto"><table>
-        <thead><tr><th>Rule</th><th>When</th><th>Then</th><th>Priority</th></tr></thead>
+        <thead><tr><th>Rule</th><th>Condition</th><th>Effect</th><th>Priority</th><th class="r"></th></tr></thead>
         <tbody id="rulesBody"></tbody>
       </table></div>
-      <div id="guard" class="guard" hidden></div>
+      <div id="guard" class="note" hidden></div>
     </div>
 
-    <div class="panel">
+    <div class="card">
       <h2>Add a rule</h2>
-      <p class="sub">The new rule applies immediately and is saved as a new version you can undo.</p>
+      <p class="sub">New rules apply right away and can be undone from History.</p>
       <div class="form">
-        <div class="c3"><label for="ruleId">Rule name</label><input id="ruleId" placeholder="e.g. ec_010"></div>
-        <div class="c3"><label for="rulePriority">Priority (lower runs first)</label><input id="rulePriority" type="number" value="1"></div>
-        <div class="c2"><label for="condField">When this field</label><input id="condField" list="fieldList" placeholder="e.g. occupancy_pct" autocomplete="off"><datalist id="fieldList"></datalist></div>
-        <div class="c2"><label for="condOp">Is</label>
-          <select id="condOp"><option value="<">less than</option><option value=">">greater than</option><option value="<=">less than or equal to</option><option value=">=">greater than or equal to</option><option value="==">equal to</option></select></div>
-        <div class="c2"><label for="condValue">This value</label><input id="condValue" placeholder="e.g. 0.2, true or loyalty"></div>
-        <div class="c6" style="margin-top:-8px"><div id="fieldHint" class="hint"></div></div>
-        <div class="c3"><label for="actionType">Then</label>
-          <select id="actionType"><option value="percent_increase">increase price by a percentage</option><option value="percent_decrease">decrease price by a percentage</option><option value="flat_add">add a flat amount</option><option value="flat_set">set an exact price</option></select></div>
-        <div class="c3"><label for="actionValue">Amount</label><input id="actionValue" type="number" step="any" placeholder="e.g. 15"></div>
+        <div class="c2"><label for="condField">Field</label><select id="condField"></select></div>
+        <div class="c2"><label for="condOp">Condition</label><select id="condOp"></select></div>
+        <div class="c2"><label for="condValue">Value</label><span id="valWrap"></span></div>
+        <div class="c6" id="otherWrap" hidden><label for="otherField">Field name</label><input id="otherField" autocomplete="off"></div>
+        <div class="c3"><label for="actionType">Effect</label>
+          <select id="actionType"><option value="percent_increase">Increase price by a percentage</option><option value="percent_decrease">Decrease price by a percentage</option><option value="flat_add">Add a fixed amount</option><option value="flat_set">Set an exact price</option></select></div>
+        <div class="c3"><label for="actionValue" id="amtLabel">Percentage (%)</label><input id="actionValue" type="number" step="any"></div>
+        <div class="c3"><label for="ruleId">Rule name (optional)</label><input id="ruleId" placeholder="Created automatically" autocomplete="off"></div>
+        <div class="c3"><label for="rulePriority">Priority</label><input id="rulePriority" type="number" value="1"></div>
         <div class="c6"><button id="addRuleBtn" class="btn" type="button">Add rule</button></div>
       </div>
     </div>
   </section>
 
   <section id="tab-history" hidden>
-    <div class="panel">
-      <h2>Change history</h2>
-      <p class="sub">Every rule change is saved. Rolling back restores an earlier set of rules and is recorded as a new version, so nothing is ever lost.</p>
+    <div class="card">
+      <h2>History</h2>
+      <p class="sub">Every change is saved. Restoring an earlier version creates a new version, so nothing is lost.</p>
       <div id="versionList"></div>
     </div>
   </section>
@@ -161,16 +139,22 @@ code{font:13px Consolas,"Courier New",monospace;background:#f0f3f6;padding:1px 6
 
 <script>
 const API = "http://127.0.0.1:8000";
-const sampleContexts = {
+const SAMPLE = {
   ecommerce: {inventory_pct: 0.15, demand_score: 0.3, customer_segment: "regular", mrp: 1000, cost_price: 550, base_price: 800},
   ride_hailing: {demand_supply_ratio: 1.8, is_raining: true, is_rush_hour: false, base_fare: 100},
   hotel: {occupancy_pct: 0.85, is_weekend: true, season: "peak", base_price: 3000}
 };
-const OPS = {"<": "is below", ">": "is above", "<=": "is at most", ">=": "is at least", "==": "equals"};
+const LABELS = {ecommerce: "E-commerce", ride_hailing: "Ride hailing", hotel: "Hotel", inventory_pct: "Inventory level", demand_score: "Demand score", customer_segment: "Customer segment", mrp: "MRP", cost_price: "Cost price", base_price: "Base price", demand_supply_ratio: "Demand to supply ratio", is_raining: "Raining", is_rush_hour: "Rush hour", base_fare: "Base fare", occupancy_pct: "Occupancy", is_weekend: "Weekend", season: "Season"};
+const OPS = {"<": "is below", ">": "is above", "<=": "is at most", ">=": "is at least", "==": "is"};
+const OPT = {"<": "is less than", ">": "is greater than", "<=": "is at most", ">=": "is at least", "==": "is equal to"};
 const $ = id => document.getElementById(id);
 const esc = s => String(s).replace(/[&<>"']/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
-const money = n => "&#8377;" + Number(n).toLocaleString("en-IN", {maximumFractionDigits: 2});
-const signed = n => (Number(n) >= 0 ? "+" : "&minus;") + money(Math.abs(n));
+const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+const lab = k => LABELS[k] || cap(String(k).replace(/^is_/, "").replace(/_/g, " ").replace(/\bpct\b/g, "percent"));
+const tidy = s => String(s).replace(/([a-z]+)_(\d+)/gi, (m, a, b) => a.toUpperCase() + "-" + b).replace(/_/g, " ");
+const money = n => "₹" + Number(n).toLocaleString("en-IN", {minimumFractionDigits: 2, maximumFractionDigits: 2});
+const signed = n => (Number(n) >= 0 ? "+" : "−") + money(Math.abs(n));
+const fv = v => v === true ? "Yes" : v === false ? "No" : esc(v);
 const state = {rules: [], domains: [], json: false, known: []};
 let toastTimer;
 
@@ -180,26 +164,23 @@ function toast(msg, kind) {
   clearTimeout(toastTimer);
   toastTimer = setTimeout(() => t.className = "", 3800);
 }
-
 async function api(path, opts) {
   const res = await fetch(API + path, opts);
   const data = await res.json().catch(() => ({}));
   return {ok: res.ok, data};
 }
-
-function showTab(name) {
-  document.querySelectorAll(".tab").forEach(b => b.classList.toggle("on", b.dataset.tab === name));
-  ["price", "rules", "history"].forEach(n => $("tab-" + n).hidden = n !== name);
+function showTab(n) {
+  document.querySelectorAll(".tab").forEach(b => b.classList.toggle("on", b.dataset.tab === n));
+  ["price", "rules", "history"].forEach(t => $("tab-" + t).hidden = t !== n);
 }
-
 async function checkApi() {
   try {
     await fetch(API + "/");
-    $("status").textContent = "Engine connected"; $("status").className = "pill ok";
+    $("stxt").textContent = "Connected"; $("dot").className = "dot ok";
     return true;
   } catch (e) {
-    $("status").textContent = "Engine offline"; $("status").className = "pill off";
-    toast("Cannot reach the pricing engine. Start the server on port 8000, then refresh.", "bad");
+    $("stxt").textContent = "Offline"; $("dot").className = "dot off";
+    toast("Can't reach the pricing engine. Start the server on port 8000, then refresh.", "bad");
     return false;
   }
 }
@@ -209,28 +190,31 @@ async function loadDomains(announce) {
   const {data} = await api("/domains");
   const prev = state.domains, list = data.domains || [];
   const fresh = list.filter(d => prev.length && !prev.includes(d));
-  const current = $("domainSelect").value;
-  $("domainSelect").innerHTML = list.map(d => `<option value="${esc(d)}">${esc(d)}</option>`).join("");
-  if (list.includes(current)) $("domainSelect").value = current;
+  const cur = $("domainSelect").value;
+  $("domainSelect").innerHTML = list.map(d => `<option value="${esc(d)}">${esc(lab(d))}</option>`).join("");
+  if (list.includes(cur)) $("domainSelect").value = cur;
   state.domains = list;
   if (fresh.length) {
     $("domainSelect").value = fresh[0];
-    toast(`New industry detected: ${fresh.join(", ")}. No code was changed.`, "good");
-  } else if (announce) {
-    toast(`${list.length} industries available: ${list.join(", ")}`);
-  }
+    toast(`New industry added: ${fresh.map(lab).join(", ")}`, "good");
+  } else if (announce) toast(`${list.length} industries available`);
   await loadAll();
 }
 
 async function loadAll() {
-  const domain = $("domainSelect").value;
-  if (!domain) return;
-  state.json = false; $("fields").hidden = false; $("contextInput").hidden = true; $("jsonToggle").textContent = "Edit as JSON";
-  const sample = sampleContexts[domain] || {};
-  renderFields(sample);
-  if (!Object.keys(sample).length) setJson(true);
-  resetLedger();
+  const d = $("domainSelect").value;
+  if (!d) return;
   await refreshRules();
+  let s = SAMPLE[d];
+  const derived = !s;
+  if (derived) {
+    s = {};
+    state.rules.forEach(r => r.conditions.forEach(c => { if (!(c.field in s)) s[c.field] = typeof c.value === "boolean" ? false : typeof c.value === "number" ? c.value : ""; }));
+  }
+  state.json = false; $("fields").hidden = false; $("contextInput").hidden = true; $("jsonToggle").textContent = "Edit as JSON";
+  renderFields(s);
+  if (derived) setJson(true);
+  resetLedger();
   await loadVersions();
 }
 
@@ -238,15 +222,13 @@ function renderFields(obj) {
   const box = $("fields"); box.innerHTML = "";
   Object.entries(obj).forEach(([k, v]) => {
     const t = typeof v, d = document.createElement("div");
-    d.className = "fld";
-    const label = `<label for="f_${esc(k)}">${esc(k.replace(/_/g, " "))}</label>`;
+    const l = `<label for="f_${esc(k)}">${esc(lab(k))}</label>`;
     d.innerHTML = t === "boolean"
-      ? `${label}<select id="f_${esc(k)}" data-k="${esc(k)}" data-t="boolean"><option value="true"${v ? " selected" : ""}>Yes</option><option value="false"${v ? "" : " selected"}>No</option></select>`
-      : `${label}<input id="f_${esc(k)}" data-k="${esc(k)}" data-t="${t === "number" ? "number" : "string"}" type="${t === "number" ? "number" : "text"}" step="any" value="${esc(v)}">`;
+      ? `${l}<select id="f_${esc(k)}" data-k="${esc(k)}" data-t="boolean"><option value="true"${v ? " selected" : ""}>Yes</option><option value="false"${v ? "" : " selected"}>No</option></select>`
+      : `${l}<input id="f_${esc(k)}" data-k="${esc(k)}" data-t="${t === "number" ? "number" : "string"}" type="${t === "number" ? "number" : "text"}" step="any" value="${esc(v)}">`;
     box.appendChild(d);
   });
 }
-
 function readFields() {
   const o = {};
   document.querySelectorAll("#fields [data-k]").forEach(el => {
@@ -255,88 +237,100 @@ function readFields() {
   });
   return o;
 }
-
 function setJson(on) {
-  if (on) {
-    $("contextInput").value = JSON.stringify(readFields(), null, 2);
-  } else {
-    try { renderFields(JSON.parse($("contextInput").value)); }
-    catch (e) { toast("Fix the JSON before switching back to the form.", "bad"); return; }
-  }
+  if (on) $("contextInput").value = JSON.stringify(readFields(), null, 2);
+  else { try { renderFields(JSON.parse($("contextInput").value)); } catch (e) { toast("Fix the JSON before going back to the form.", "bad"); return; } }
   state.json = on; $("fields").hidden = on; $("contextInput").hidden = !on;
   $("jsonToggle").textContent = on ? "Use the form" : "Edit as JSON";
 }
 
-function condText(c) { return `<code>${esc(c.field)}</code> ${OPS[c.op] || esc(c.op)} <b>${esc(c.value)}</b>`; }
+function condText(cs) {
+  const by = {};
+  cs.forEach(c => (by[c.field] = by[c.field] || []).push(c));
+  return Object.entries(by).map(([f, l]) => {
+    const lo = l.find(c => c.op === ">" || c.op === ">="), hi = l.find(c => c.op === "<" || c.op === "<=");
+    if (l.length === 2 && lo && hi) return `${esc(lab(f))} is between <b>${fv(lo.value)}</b> and <b>${fv(hi.value)}</b>`;
+    return l.map(c => `${esc(lab(f))} ${OPS[c.op] || esc(c.op)} <b>${fv(c.value)}</b>`).join(" and ");
+  }).join(" and ");
+}
 function actionText(a) {
   const v = a.value;
-  switch (a.type) {
-    case "percent_increase": return `Increase price by ${esc(v)}%`;
-    case "percent_decrease": return `Decrease price by ${esc(v)}%`;
-    case "flat_add": return `Add ${money(v)}`;
-    case "flat_set": return `Set price to ${money(v)}`;
-    default: return `${esc(a.type)} ${esc(v)}`;
-  }
+  return {percent_increase: `Increase price by ${esc(v)}%`, percent_decrease: `Decrease price by ${esc(v)}%`, flat_add: `Add ${money(v)}`, flat_set: `Set price to ${money(v)}`}[a.type] || esc(tidy(a.type) + " " + v);
 }
-function ruleSentence(id) {
-  const r = state.rules.find(x => x.id === id);
-  return r ? `${r.conditions.map(condText).join(" and ")}: ${actionText(r.action)}` : "";
+function typeOf(k) {
+  let v = (SAMPLE[$("domainSelect").value] || {})[k];
+  if (v === undefined) state.rules.forEach(r => r.conditions.forEach(c => { if (c.field === k && v === undefined) v = c.value; }));
+  return typeof v;
 }
 
 async function refreshRules() {
-  const domain = $("domainSelect").value;
-  if (!domain) return;
-  const {ok, data} = await api(`/rules/${domain}`);
-  if (!ok) { toast(data.detail || "Could not load the rules.", "bad"); return; }
+  const d = $("domainSelect").value;
+  if (!d) return;
+  const {ok, data} = await api(`/rules/${d}`);
+  if (!ok) { toast(data.detail || "Couldn't load the rules.", "bad"); return; }
   state.rules = data.rules || [];
   $("rulesCount").textContent = state.rules.length;
   $("rulesBody").innerHTML = state.rules.map(r => `
     <tr>
-      <td class="rid">${esc(r.id)}</td>
-      <td>${r.conditions.map(condText).join(" and ")}
-        ${r.effective_from || r.effective_to ? `<div class="dates">Effective ${esc(r.effective_from || "any time")} to ${esc(r.effective_to || "no end")}</div>` : ""}</td>
+      <td class="rid">${esc(tidy(r.id))}</td>
+      <td>${condText(r.conditions)}${r.effective_from || r.effective_to ? `<div class="mut">From ${esc(r.effective_from || "any time")} to ${esc(r.effective_to || "no end date")}</div>` : ""}</td>
       <td>${actionText(r.action)}</td>
-      <td><span class="prio">${esc(r.priority)}</span></td>
-    </tr>`).join("") || `<tr><td colspan="4" class="empty">This industry has no rules yet. Add the first one below.</td></tr>`;
+      <td>${esc(r.priority)}</td>
+      <td class="r"><button class="lnk red" onclick="removeRule(decodeURIComponent('${encodeURIComponent(r.id)}'))">Remove</button></td>
+    </tr>`).join("") || `<tr><td colspan="5" class="empty"><b>No rules yet</b>Add the first rule below.</td></tr>`;
   const cons = Object.entries(data.constraints || {});
   $("guard").hidden = !cons.length;
-  $("guard").innerHTML = "<b>Price limits:</b> " + cons.map(([k, v]) => `${esc(k.replace(/_/g, " "))}: <b>${esc(v)}</b>`).join(", ");
-  const fields = new Set(Object.keys(sampleContexts[domain] || {}));
-  state.rules.forEach(r => r.conditions.forEach(c => fields.add(c.field)));
-  state.known = [...fields];
-  $("fieldList").innerHTML = state.known.map(f => `<option value="${esc(f)}">`).join("");
-  checkField();
+  $("guard").innerHTML = "<b>Price limits</b>&nbsp; " + cons.map(([k, v]) => `${esc(lab(k))}: <b>${typeof v === "number" && !/pct|percent/.test(k) ? money(v) : esc(v)}</b>`).join(" &nbsp;|&nbsp; ");
+  const f = new Set(Object.keys(SAMPLE[d] || {}));
+  state.rules.forEach(r => r.conditions.forEach(c => f.add(c.field)));
+  state.known = [...f];
+  const s = $("condField"), cur = s.value;
+  s.innerHTML = state.known.map(k => `<option value="${esc(k)}">${esc(lab(k))}</option>`).join("") + `<option value="*">Other field…</option>`;
+  if (state.known.includes(cur) || cur === "*") s.value = cur;
+  fieldChanged();
+  $("rulePriority").value = Math.max(0, ...state.rules.map(r => Number(r.priority) || 0)) + 1;
 }
 
-function checkField() {
-  const v = $("condField").value.trim(), h = $("fieldHint");
-  if (v && state.known.length && !state.known.includes(v)) {
-    h.className = "hint warn";
-    h.textContent = "No existing rule or scenario uses this field. Check the spelling, or ignore this if the field is new.";
-  } else { h.className = "hint"; h.textContent = ""; }
+function fieldChanged() {
+  const f = $("condField").value, other = f === "*", t = other ? "string" : typeOf(f);
+  $("otherWrap").hidden = !other;
+  const op = $("condOp"), prev = op.value;
+  op.innerHTML = Object.entries(OPT).filter(([k]) => other || t === "number" || k === "==").map(([k, v]) => `<option value="${k}">${v}</option>`).join("");
+  if ([...op.options].some(o => o.value === prev)) op.value = prev;
+  $("valWrap").innerHTML = t === "boolean"
+    ? `<select id="condValue"><option value="true">Yes</option><option value="false">No</option></select>`
+    : `<input id="condValue" type="${t === "number" ? "number" : "text"}" step="any" autocomplete="off">`;
 }
+function actionChanged() { $("amtLabel").textContent = $("actionType").value.startsWith("percent") ? "Percentage (%)" : "Amount (₹)"; }
 
 async function loadVersions() {
-  const domain = $("domainSelect").value;
-  if (!domain) return;
-  const {ok, data} = await api(`/rules/${domain}/versions`);
-  if (!ok) { $("versionList").innerHTML = `<div class="empty">Change history is not available for this industry.</div>`; return; }
+  const d = $("domainSelect").value;
+  if (!d) return;
+  const {ok, data} = await api(`/rules/${d}/versions`);
+  if (!ok) { $("versionList").innerHTML = `<div class="empty">History isn't available for this industry.</div>`; return; }
   $("versionList").innerHTML = [...data.versions].reverse().map(v => `
     <div class="ver">
       <div>
-        <div><span class="vn">Version ${v.version}</span>${esc(v.action)}${v.is_latest ? `<span class="cur">Current</span>` : ""}</div>
-        <div class="meta">${esc(new Date(v.timestamp).toLocaleString())}. ${v.rule_count} rules: ${esc(v.rule_ids.join(", "))}</div>
+        <div><b>Version ${v.version}</b> &nbsp;${esc(cap(tidy(v.action)))}${v.is_latest ? `<span class="cur">Current</span>` : ""}</div>
+        <div class="mut">${esc(new Date(v.timestamp).toLocaleString())} &nbsp;|&nbsp; ${v.rule_count} rules: ${esc(v.rule_ids.map(tidy).join(", "))}</div>
       </div>
-      ${v.is_latest ? "" : `<button class="btn amber" onclick="rollbackTo(${v.version})">Restore version ${v.version}</button>`}
+      ${v.is_latest ? "" : `<button class="btn ghost" onclick="rollbackTo(${v.version})">Restore</button>`}
     </div>`).join("");
 }
-
-async function rollbackTo(version) {
-  const domain = $("domainSelect").value;
-  if (!confirm(`Restore the ${domain} rules to version ${version}? The current rules stay in the history.`)) return;
-  const {ok, data} = await api(`/rules/${domain}/rollback/${version}`, {method: "POST"});
-  if (!ok) { toast(data.detail || "Restore failed.", "bad"); return; }
-  toast(`Restored version ${version}. Saved as version ${data.new_version}.`, "good");
+async function rollbackTo(n) {
+  const d = $("domainSelect").value;
+  if (!confirm(`Restore ${lab(d)} rules to version ${n}? The current rules stay in the history.`)) return;
+  const {ok, data} = await api(`/rules/${d}/rollback/${n}`, {method: "POST"});
+  if (!ok) { toast(data.detail || "Couldn't restore that version.", "bad"); return; }
+  toast(`Restored version ${n}. Saved as version ${data.new_version}.`, "good");
+  await refreshRules(); await loadVersions();
+}
+async function removeRule(id) {
+  const d = $("domainSelect").value;
+  if (!confirm(`Remove rule ${tidy(id)}? You can bring it back from History.`)) return;
+  const {ok, data} = await api(`/rules/${d}/${encodeURIComponent(id)}`, {method: "DELETE"});
+  if (!ok) { toast(typeof data.detail === "string" ? data.detail : "Couldn't remove the rule.", "bad"); return; }
+  toast(`Rule ${tidy(id)} removed.`, "good");
   await refreshRules(); await loadVersions();
 }
 
@@ -344,64 +338,65 @@ function parseValue(raw) {
   if (raw === "true") return true;
   if (raw === "false") return false;
   const n = Number(raw);
-  return raw.trim() !== "" && !isNaN(n) ? n : raw;
+  return raw.trim() !== "" && !isNaN(n) ? n : raw.trim();
 }
-
+function nextId(d) {
+  const ids = state.rules.map(r => String(r.id)), m = (ids[0] || "").match(/^(.*?)(\d+)$/), w = d.split("_");
+  const pre = m ? m[1] : (w.length > 1 ? w.map(x => x[0]).join("") : d.slice(0, 2)) + "_";
+  let n = 0;
+  ids.forEach(i => { const x = i.match(/^(.*?)(\d+)$/); if (x && x[1] === pre) n = Math.max(n, +x[2]); });
+  return pre + String(n + 1).padStart(m ? m[2].length : 3, "0");
+}
 async function addRule() {
-  const domain = $("domainSelect").value;
-  const id = $("ruleId").value.trim(), field = $("condField").value.trim();
-  const rawVal = $("condValue").value, amount = $("actionValue").value;
-  if (!id || !field || !rawVal.trim() || amount === "") { toast("Fill in the rule name, field, value and amount.", "bad"); return; }
-  const rule = {
-    id, priority: Number($("rulePriority").value),
-    conditions: [{field, op: $("condOp").value, value: parseValue(rawVal)}],
-    action: {type: $("actionType").value, value: Number(amount)}
-  };
-  const {ok, data} = await api(`/rules/${domain}`, {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify(rule)});
-  if (!ok) { toast(typeof data.detail === "string" ? data.detail : "The rule could not be added.", "bad"); return; }
-  toast(`Rule ${id} added.`, "good");
-  ["ruleId", "condField", "condValue", "actionValue"].forEach(i => $(i).value = "");
+  const d = $("domainSelect").value;
+  let field = $("condField").value;
+  if (field === "*") field = $("otherField").value.trim();
+  const el = $("condValue"), raw = el.value, amt = $("actionValue").value;
+  if (!field || !String(raw).trim() || amt === "") { toast("Choose a field, then enter a value and an amount.", "bad"); return; }
+  const value = el.tagName === "SELECT" ? raw === "true" : el.type === "number" ? Number(raw) : parseValue(raw);
+  const id = $("ruleId").value.trim() || nextId(d);
+  const rule = {id, priority: Number($("rulePriority").value), conditions: [{field, op: $("condOp").value, value}], action: {type: $("actionType").value, value: Number(amt)}};
+  const {ok, data} = await api(`/rules/${d}`, {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify(rule)});
+  if (!ok) { toast(typeof data.detail === "string" ? data.detail : "Couldn't add the rule.", "bad"); return; }
+  toast(`Rule ${tidy(id)} added.`, "good");
+  ["ruleId", "otherField", "actionValue"].forEach(i => $(i).value = "");
   await refreshRules(); await loadVersions();
 }
 
 function resetLedger() {
-  $("ledger").innerHTML = `<div class="empty"><b>No price yet</b>Fill in the scenario and select Calculate price to see the result and the reason for every adjustment.</div>`;
+  $("ledger").innerHTML = `<div class="empty"><b>No price yet</b>Enter a scenario and select Calculate price.</div>`;
 }
-
 async function runPrice() {
   let context;
   try { context = state.json ? JSON.parse($("contextInput").value) : readFields(); }
-  catch (e) { toast("The scenario JSON is not valid.", "bad"); return; }
-  const btn = $("runBtn"); btn.disabled = true; btn.textContent = "Calculating";
+  catch (e) { toast("The JSON isn't valid.", "bad"); return; }
+  const btn = $("runBtn"); btn.disabled = true; btn.textContent = "Calculating…";
   try {
     const {ok, data} = await api("/price", {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify({domain: $("domainSelect").value, context})});
-    if (!ok) { toast(typeof data.detail === "string" ? data.detail : "The engine could not price this scenario. Check that every field is filled in.", "bad"); return; }
+    if (!ok) { toast(typeof data.detail === "string" ? data.detail : "Couldn't price this scenario. Check that every field is filled in.", "bad"); return; }
     renderLedger(data);
-  } catch (e) { toast("Cannot reach the pricing engine. Is the server running?", "bad"); }
+  } catch (e) { toast("Can't reach the pricing engine. Is the server running?", "bad"); }
   finally { btn.disabled = false; btn.textContent = "Calculate price"; }
 }
-
 function renderLedger(d) {
   const base = Number(d.base_price), fin = Number(d.final_price);
-  const pct = base ? (fin - base) / base * 100 : 0;
-  const dir = pct > 0.005 ? "up" : pct < -0.005 ? "down" : "";
-  const arrow = dir === "up" ? "Up " : dir === "down" ? "Down " : "";
-  const rows = (d.breakdown || []).map(b => `
-    <li><div class="why"><b>${esc(b.rule_id)}</b><span>${ruleSentence(b.rule_id)}</span></div>
-    <div class="${Number(b.amount) >= 0 ? "pos" : "neg"}">${signed(b.amount)}</div></li>`).join("");
-  const cons = (d.constraints_applied || []).map(c => esc(typeof c === "string" ? c : JSON.stringify(c)));
+  const pct = base ? (fin - base) / base * 100 : 0, dir = pct > 0.005 ? "up" : pct < -0.005 ? "down" : "";
+  const chip = dir ? `${dir === "up" ? "↑" : "↓"} ${Math.abs(pct).toFixed(1)}% ${dir === "up" ? "above" : "below"} base price` : "Same as base price";
+  const rows = (d.breakdown || []).map(b => {
+    const r = state.rules.find(x => x.id === b.rule_id);
+    return `<div class="row"><div><div>${r ? condText(r.conditions) : "Rule " + esc(tidy(b.rule_id))}</div><div class="mut">${r ? actionText(r.action) + " &nbsp;|&nbsp; Rule " + esc(tidy(b.rule_id)) : ""}</div></div><div class="amt ${Number(b.amount) >= 0 ? "pos" : "neg"}">${signed(b.amount)}</div></div>`;
+  }).join("");
+  const cons = (d.constraints_applied || []).map(c => esc(tidy(typeof c === "string" ? c : Object.entries(c).map(([k, v]) => lab(k) + " " + v).join(", "))));
   $("ledger").innerHTML = `
-    <div class="lbl">Recommended price</div>
+    <div class="mut">Recommended price</div>
     <div class="big">${money(fin)}</div>
-    <span class="delta ${dir}">${arrow}${Math.abs(pct).toFixed(1)}% compared with the base price</span>
-    <h2 style="margin-top:22px">Why this price</h2>
-    <ul class="steps">
-      <li><div class="why"><b>Base price</b></div><div>${money(base)}</div></li>
-      ${rows || `<li><div class="why"><b>No rules matched</b><span>The base price applies unchanged.</span></div><div></div></li>`}
-      <li class="total"><div>Final price</div><div>${money(fin)}</div></li>
-    </ul>
+    <span class="chip ${dir}">${chip}</span>
+    <h2 class="mt">How we got here</h2>
+    <div class="row" style="margin-top:8px"><div>Base price</div><div class="amt">${money(base)}</div></div>
+    ${rows || `<div class="row"><div><div>No rules matched</div><div class="mut">The base price applies unchanged.</div></div><div></div></div>`}
+    <div class="row total"><div>Final price</div><div class="amt">${money(fin)}</div></div>
     ${cons.length ? `<div class="note warn"><b>Price limit applied:</b> ${cons.join(", ")}</div>` : ""}
-    ${d.conflict ? `<div class="note bad"><b>Rule conflict:</b> ${esc((d.conflicting_rules || []).join(", "))} have the same priority but push the price in opposite directions. Give them different priorities.</div>` : ""}`;
+    ${d.conflict ? `<div class="note bad"><b>Rule conflict:</b> ${esc((d.conflicting_rules || []).map(tidy).join(", "))} share a priority but move the price in opposite directions. Give them different priorities.</div>` : ""}`;
 }
 
 document.querySelectorAll(".tab").forEach(b => b.addEventListener("click", () => showTab(b.dataset.tab)));
@@ -410,8 +405,8 @@ $("refreshDomainsBtn").addEventListener("click", () => loadDomains(true));
 $("addRuleBtn").addEventListener("click", addRule);
 $("runBtn").addEventListener("click", runPrice);
 $("jsonToggle").addEventListener("click", () => setJson(!state.json));
-$("condField").addEventListener("input", checkField);
-
+$("condField").addEventListener("change", fieldChanged);
+$("actionType").addEventListener("change", actionChanged);
 loadDomains(false);
 </script>
 </body>
