@@ -10,8 +10,10 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from pricing_service import (get_price, simulate, add_rule, get_domain_files,
-                             get_audit, list_versions, rollback, RULES_DIR)
+from pricing_service import (
+    get_price, simulate, add_rule, remove_rule,
+    get_versions, rollback, get_domain_files, RULES_DIR
+)
 from engine import load_ruleset
 
 app = FastAPI(title="Monetize360 Pricing API")
@@ -85,22 +87,26 @@ def create_rule(domain: str, rule: RuleIn):
         raise HTTPException(status_code=400, detail=str(e))
 
 
-@app.get("/rules/{domain}/versions")
-def rule_versions(domain: str):
+@app.delete("/rules/{domain}/{rule_id}")
+def delete_rule(domain: str, rule_id: str):
     try:
-        return list_versions(domain)
+        return remove_rule(domain, rule_id)
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+
+
+@app.get("/rules/{domain}/versions")
+def list_versions(domain: str):
+    try:
+        return {"versions": get_versions(domain)}
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
 
 
 @app.post("/rules/{domain}/rollback/{version}")
-def rule_rollback(domain: str, version: int):
+def rollback_endpoint(domain: str, version: int):
     try:
-        return rollback(domain, version)
+        new_version = rollback(domain, version)
+        return {"new_version": new_version}
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
-
-
-@app.get("/audit")
-def audit(limit: int = 20):
-    return get_audit(limit)

@@ -1,0 +1,99 @@
+{
+  "versions": [
+    {
+      "version": 1,
+      "timestamp": "2026-10-03T17:18:37.389139+00:00",
+      "action": "initial",
+      "rule_count": 5,
+      "rule_ids": [
+        "rh_001",
+        "rh_002",
+        "rh_003",
+        "rh_004",
+        "rh_005"
+      ],
+      "rules": [
+        {
+          "id": "rh_001",
+          "conditions": [
+            {
+              "field": "demand_supply_ratio",
+              "op": ">",
+              "value": 1.5
+            },
+            {
+              "field": "demand_supply_ratio",
+              "op": "<=",
+              "value": 2.5
+            }
+          ],
+          "action": {
+            "type": "percent_increase",
+            "value": 30
+          },
+          "priority": 1
+        },
+        {
+          "id": "rh_002",
+          "conditions": [
+            {
+              "field": "demand_supply_ratio",
+              "op": ">",
+              "value": 2.5
+            }
+          ],
+          "action": {
+            "type": "percent_increase",
+            "value": 60
+          },
+          "priority": 1
+        },
+        {
+          "id": "rh_003",
+          "conditions": [
+            {
+              "field": "is_raining",
+              "op": "==",
+              "value": true
+            }
+          ],
+          "action": {
+            "type": "percent_increase",
+            "value": 15
+          },
+          "priority": 2
+        },
+        {
+          "id": "rh_004",
+          "conditions": [
+            {
+              "field": "is_rush_hour",
+              "op": "==",
+              "value": true
+            }
+          ],
+          "action": {
+            "type": "percent_increase",
+            "value": 10
+          },
+          "priority": 2
+        },
+        {
+          "id": "rh_005",
+          "conditions": [
+            {
+              "field": "demand_supply_ratio",
+              "op": "<",
+              "value": 0.8
+            }
+          ],
+          "action": {
+            "type": "percent_decrease",
+            "value": 10
+          },
+          "priority": 3
+        }
+      ]
+    }
+  ]
+}

@@ -88,6 +88,12 @@ td.r,th.r{text-align:right;padding-right:0}
         <h2>Scenario</h2>
         <p class="sub">Enter the details and see the price.</p>
         <div id="fields" class="fields"></div>
+        <div id="aiPredictWrap" hidden style="margin-top:12px">
+          <label style="display:flex;align-items:center;gap:8px;cursor:pointer;margin-bottom:0">
+            <input type="checkbox" id="aiPredictToggle" style="width:auto">
+            Let AI predict demand score instead of entering it
+          </label>
+        </div>
         <textarea id="contextInput" hidden aria-label="Scenario as JSON"></textarea>
         <div class="actions">
           <button id="jsonToggle" class="lnk" type="button">Edit as JSON</button>
@@ -213,6 +219,9 @@ async function loadAll() {
   }
   state.json = false; $("fields").hidden = false; $("contextInput").hidden = true; $("jsonToggle").textContent = "Edit as JSON";
   renderFields(s);
+  $("aiPredictWrap").hidden = d !== "ecommerce";
+  $("aiPredictToggle").checked = false;
+  toggleDemandField();
   if (derived) setJson(true);
   resetLedger();
   await loadVersions();
@@ -229,9 +238,18 @@ function renderFields(obj) {
     box.appendChild(d);
   });
 }
+function toggleDemandField() {
+  const el = document.getElementById("f_demand_score");
+  if (!el) return;
+  const on = $("aiPredictToggle") && $("aiPredictToggle").checked;
+  el.disabled = on;
+  el.closest("div").style.opacity = on ? "0.5" : "1";
+}
 function readFields() {
   const o = {};
+  const aiOn = $("aiPredictToggle") && $("aiPredictToggle").checked;
   document.querySelectorAll("#fields [data-k]").forEach(el => {
+    if (aiOn && el.dataset.k === "demand_score") return;
     const t = el.dataset.t;
     o[el.dataset.k] = t === "boolean" ? el.value === "true" : t === "number" ? Number(el.value) : el.value;
   });
@@ -395,6 +413,7 @@ function renderLedger(d) {
     <div class="row" style="margin-top:8px"><div>Base price</div><div class="amt">${money(base)}</div></div>
     ${rows || `<div class="row"><div><div>No rules matched</div><div class="mut">The base price applies unchanged.</div></div><div></div></div>`}
     <div class="row total"><div>Final price</div><div class="amt">${money(fin)}</div></div>
+    ${d.predicted_fields && Object.keys(d.predicted_fields).length ? `<div class="note"><b>AI-predicted input:</b> ${Object.entries(d.predicted_fields).map(([k, v]) => `${esc(lab(k))}: <b>${esc(v)}</b>`).join(", ")}</div>` : ""}
     ${cons.length ? `<div class="note warn"><b>Price limit applied:</b> ${cons.join(", ")}</div>` : ""}
     ${d.conflict ? `<div class="note bad"><b>Rule conflict:</b> ${esc((d.conflicting_rules || []).map(tidy).join(", "))} share a priority but move the price in opposite directions. Give them different priorities.</div>` : ""}`;
 }
@@ -407,6 +426,7 @@ $("runBtn").addEventListener("click", runPrice);
 $("jsonToggle").addEventListener("click", () => setJson(!state.json));
 $("condField").addEventListener("change", fieldChanged);
 $("actionType").addEventListener("change", actionChanged);
+$("aiPredictToggle").addEventListener("change", toggleDemandField);
 loadDomains(false);
 </script>
 </body>

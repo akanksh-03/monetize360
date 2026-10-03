@@ -6,14 +6,17 @@ def gen_ecommerce(n=500):
     rows = []
     for i in range(n):
         mrp = random.choice([499, 999, 1499, 2999, 4999])
+        base_price = round(mrp * random.uniform(0.6, 0.95))
+        discount_ratio = 1 - (base_price / mrp)
+        demand_score = max(0, min(1, 0.3 + discount_ratio * 1.2 + random.uniform(-0.15, 0.15)))
         rows.append({
             "id": f"ec_{i}",
             "inventory_pct": round(random.uniform(0, 1), 2),
-            "demand_score": round(random.uniform(0, 1), 2),
+            "demand_score": round(demand_score, 2),
             "customer_segment": random.choice(["regular", "regular", "loyalty"]),
             "mrp": mrp,
             "cost_price": round(mrp * 0.55),
-            "base_price": round(mrp * 0.8)
+            "base_price": base_price
         })
     return rows
 
