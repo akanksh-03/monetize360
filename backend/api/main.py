@@ -15,6 +15,7 @@ from pricing_service import (
     get_versions, rollback, get_domain_files, RULES_DIR
 )
 from engine import load_ruleset
+from copilot import text_to_rule, CopilotError
 
 app = FastAPI(title="Monetize360 Pricing API")
 
@@ -43,6 +44,12 @@ class RuleIn(BaseModel):
     priority: int
     effective_from: Optional[str] = None
     effective_to: Optional[str] = None
+
+
+class CopilotIn(BaseModel):
+    domain: str
+    text: str
+    fields: Optional[List[str]] = None
 
 
 @app.get("/")
@@ -109,4 +116,24 @@ def rollback_endpoint(domain: str, version: int):
         new_version = rollback(domain, version)
         return {"new_version": new_version}
     except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+
+@app.post("/copilot")
+def copilot_endpoint(req: CopilotIn):
+    domain_files = get_domain_files()
+    if req.domain not in domain_files:
+        raise HTTPException(status_code=404, detail=f"Unknown domain: {req.domain}")
+    text = req.text.strip()
+    if not text or len(text) > 500:
+        raise HTTPException(status_code=400, detail="Describe the rule in one or two sentences.")
+    fields = list(req.fields or [])
+    if not fields:
+        ruleset = load_ruleset(os.path.join(RULES_DIR, domain_files[req.domain]))
+        fields = sorted({c["field"] for r in ruleset.get("rules", []) for c in r["conditions"]})
+    if not fields:
+        raise HTTPException(status_code=400, detail="This industry has no known fields yet.")
+    try:
+        return text_to_rule(text, fields)
+    except CopilotError as e:
         raise HTTPException(status_code=400, detail=str(e))
