@@ -24,12 +24,21 @@
     </div>
 
     <div class="mb-8">
+      <div class="flex items-center justify-between mb-2">
+        <h2 class="text-lg font-semibold">Version History</h2>
+        <span class="text-xs text-gray-500">Every rule change is saved. Rolling back is itself recorded as a new version.</span>
+      </div>
+      <div id="versionList" class="bg-gray-800 rounded p-4 text-sm"></div>
+      <div id="versionMsg" class="text-sm mt-2"></div>
+    </div>
+
+    <div class="mb-8">
       <h2 class="text-lg font-semibold mb-2">Add New Rule</h2>
       <div class="bg-gray-800 rounded p-4 space-y-3">
         <div class="grid grid-cols-2 gap-3">
           <div>
             <label class="block text-xs text-gray-400 mb-1">Rule ID</label>
-            <input id="ruleId" type="text" placeholder="e.g. ec_005" class="w-full bg-gray-900 border border-gray-700 rounded px-3 py-2 text-sm">
+            <input id="ruleId" type="text" placeholder="e.g. ec_010" class="w-full bg-gray-900 border border-gray-700 rounded px-3 py-2 text-sm">
           </div>
           <div>
             <label class="block text-xs text-gray-400 mb-1">Priority</label>
@@ -100,6 +109,8 @@ const sampleContexts = {
 const domainSelect = document.getElementById("domainSelect");
 const contextInput = document.getElementById("contextInput");
 const rulesTable = document.getElementById("rulesTable");
+const versionList = document.getElementById("versionList");
+const versionMsg = document.getElementById("versionMsg");
 const condField = document.getElementById("condField");
 const resultBox = document.getElementById("result");
 const finalPriceEl = document.getElementById("finalPrice");
@@ -118,16 +129,72 @@ async function loadRules() {
   const domain = domainSelect.value;
   if (!domain) return;
   contextInput.value = JSON.stringify(sampleContexts[domain] || {}, null, 2);
+  await refreshRules();
+  await loadVersions();
+}
+
+async function refreshRules() {
+  const domain = domainSelect.value;
+  if (!domain) return;
   const res = await fetch(`${API}/rules/${domain}`);
   const data = await res.json();
   rulesTable.innerHTML = data.rules.map(r => `
     <div class="border-b border-gray-700 py-2">
       <span class="text-emerald-400">${r.id}</span>
-      — priority ${r.priority} —
+      &mdash; priority ${r.priority} &mdash;
       ${r.conditions.map(c => `${c.field} ${c.op} ${c.value}`).join(" AND ")}
-      → ${r.action.type} ${r.action.value}
+      &rarr; ${r.action.type} ${r.action.value}
     </div>
   `).join("");
+}
+
+function formatTime(iso) {
+  const d = new Date(iso);
+  return isNaN(d) ? iso : d.toLocaleString();
+}
+
+async function loadVersions() {
+  const domain = domainSelect.value;
+  if (!domain) return;
+  try {
+    const res = await fetch(`${API}/rules/${domain}/versions`);
+    if (!res.ok) {
+      versionList.innerHTML = `<div class="text-gray-400">Version history unavailable for this domain.</div>`;
+      return;
+    }
+    const data = await res.json();
+    const newestFirst = [...data.versions].reverse();
+    versionList.innerHTML = newestFirst.map(v => `
+      <div class="flex items-center justify-between border-b border-gray-700 py-2">
+        <div>
+          <span class="text-emerald-400 font-mono">v${v.version}</span>
+          <span class="ml-2">${v.action}</span>
+          ${v.is_latest ? `<span class="ml-2 text-xs bg-emerald-700 px-2 py-0.5 rounded">current</span>` : ""}
+          <div class="text-xs text-gray-400 mt-1">${formatTime(v.timestamp)} &mdash; ${v.rule_count} rules: ${v.rule_ids.join(", ")}</div>
+        </div>
+        ${v.is_latest ? "" : `<button onclick="rollbackTo(${v.version})" class="bg-amber-600 hover:bg-amber-500 px-3 py-1 rounded text-xs font-medium">Rollback to v${v.version}</button>`}
+      </div>
+    `).join("");
+  } catch (e) {
+    versionList.innerHTML = `<div class="text-red-400">Could not load version history.</div>`;
+  }
+}
+
+async function rollbackTo(version) {
+  const domain = domainSelect.value;
+  if (!confirm(`Roll back ${domain} rules to version ${version}?`)) return;
+  const res = await fetch(`${API}/rules/${domain}/rollback/${version}`, {method: "POST"});
+  if (res.ok) {
+    const data = await res.json();
+    versionMsg.textContent = `Rolled back to v${version}. Recorded as new version v${data.new_version}.`;
+    versionMsg.className = "text-sm mt-2 text-emerald-400";
+    await refreshRules();
+    await loadVersions();
+  } else {
+    const err = await res.json();
+    versionMsg.textContent = err.detail || "Rollback failed.";
+    versionMsg.className = "text-sm mt-2 text-red-400";
+  }
 }
 
 function parseValue(raw) {
@@ -171,7 +238,9 @@ async function addRule() {
     condField.value = "";
     document.getElementById("condValue").value = "";
     document.getElementById("actionValue").value = "";
-    loadRules();
+    versionMsg.textContent = "";
+    await refreshRules();
+    await loadVersions();
   } else {
     const err = await res.json();
     msg.textContent = err.detail || "Failed to add rule.";
@@ -194,12 +263,12 @@ async function runPrice() {
     body: JSON.stringify({domain, context})
   });
   const data = await res.json();
-  finalPriceEl.textContent = `₹${data.final_price}`;
+  finalPriceEl.innerHTML = `&#8377;${data.final_price}`;
   breakdownList.innerHTML = `
-    <div class="text-gray-400">Base: ₹${data.base_price}</div>
+    <div class="text-gray-400">Base: &#8377;${data.base_price}</div>
     ${data.breakdown.map(b => `<div>${b.rule_id}: ${b.amount >= 0 ? "+" : ""}${b.amount}</div>`).join("")}
     ${data.constraints_applied.length ? `<div class="text-yellow-400">Constraint applied: ${data.constraints_applied.join(", ")}</div>` : ""}
-    ${data.conflict ? `<div class="text-red-400">⚠ Conflict detected among: ${data.conflicting_rules.join(", ")}</div>` : ""}
+    ${data.conflict ? `<div class="text-red-400">&#9888; Conflict detected among: ${data.conflicting_rules.join(", ")}</div>` : ""}
   `;
   resultBox.classList.remove("hidden");
 }
