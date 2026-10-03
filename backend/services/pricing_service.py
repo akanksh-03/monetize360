@@ -118,6 +118,21 @@ def add_rule(domain: str, rule: dict) -> dict:
         return ruleset
 
 
+def delete_rule(domain: str, rule_id: str) -> dict:
+    with _rules_lock:
+        path = _resolve_path(domain)
+        ruleset = load_ruleset(path)
+        existing_ids = [r["id"] for r in ruleset["rules"]]
+        if rule_id not in existing_ids:
+            raise ValueError(f"Rule '{rule_id}' does not exist in '{domain}'")
+        _ensure_baseline(domain, ruleset)
+        ruleset["rules"] = [r for r in ruleset["rules"] if r["id"] != rule_id]
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(ruleset, f, indent=2)
+        _record_version(domain, ruleset, f"removed rule {rule_id}")
+        return ruleset
+
+
 def list_versions(domain: str) -> dict:
     with _rules_lock:
         path = _resolve_path(domain)
