@@ -1,0 +1,169 @@
+[
+  {
+    "timestamp": "2026-10-03T10:38:43.546044+00:00",
+    "domain": "ride_hailing",
+    "input": {
+      "demand_supply_ratio": 1.8,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 100
+    },
+    "result": {
+      "base_price": 100,
+      "final_price": 149.5,
+      "fired_rules": [
+        "rh_001",
+        "rh_003"
+      ],
+      "breakdown": [
+        {
+          "rule_id": "rh_001",
+          "description": "rh_001",
+          "amount": 30.0
+        },
+        {
+          "rule_id": "rh_003",
+          "description": "rh_003",
+          "amount": 19.5
+        }
+      ],
+      "constraints_applied": [],
+      "conflict": false,
+      "conflicting_rules": []
+    }
+  },
+  {
+    "timestamp": "2026-10-03T10:44:31.744248+00:00",
+    "domain": "ride_hailing",
+    "input": {
+      "demand_supply_ratio": 1.8,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 100
+    },
+    "result": {
+      "base_price": 100,
+      "final_price": 149.5,
+      "fired_rules": [
+        "rh_001",
+        "rh_003"
+      ],
+      "breakdown": [
+        {
+          "rule_id": "rh_001",
+          "description": "rh_001",
+          "amount": 30.0
+        },
+        {
+          "rule_id": "rh_003",
+          "description": "rh_003",
+          "amount": 19.5
+        }
+      ],
+      "constraints_applied": [],
+      "conflict": false,
+      "conflicting_rules": []
+    }
+  },
+  {
+    "timestamp": "2026-10-03T10:52:15.407778+00:00",
+    "domain": "ecommerce",
+    "input": {
+      "inventory_pct": 0.15,
+      "demand_score": 0.3,
+      "customer_segment": "regular",
+      "mrp": 1000,
+      "cost_price": 550,
+      "base_price": 800
+    },
+    "result": {
+      "base_price": 800,
+      "final_price": 864.0,
+      "fired_rules": [
+        "ec_001"
+      ],
+      "breakdown": [
+        {
+          "rule_id": "ec_001",
+          "description": "ec_001",
+          "amount": 64.0
+        }
+      ],
+      "constraints_applied": [],
+      "conflict": false,
+      "conflicting_rules": []
+    }
+  },
+  {
+    "timestamp": "2026-10-03T11:05:17.925420+00:00",
+    "domain": "ride_hailing",
+    "input": {
+      "demand_supply_ratio": 1.8,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 100
+    },
+    "result": {
+      "base_price": 100,
+      "final_price": 149.5,
+      "fired_rules": [
+        "rh_001",
+        "rh_003"
+      ],
+      "breakdown": [
+        {
+          "rule_id": "rh_001",
+          "description": "rh_001",
+          "amount": 30.0
+        },
+        {
+          "rule_id": "rh_003",
+          "description": "rh_003",
+          "amount": 19.5
+        }
+      ],
+      "constraints_applied": [],
+      "conflict": false,
+      "conflicting_rules": []
+    }
+  },
+  {
+    "timestamp": "2026-10-03T11:40:38.906422+00:00",
+    "domain": "hotel",
+    "input": {
+      "occupancy_pct": 0.85,
+      "is_weekend": true,
+      "season": "peak",
+      "base_price": 3000
+    },
+    "result": {
+      "base_price": 3000,
+      "final_price": 5175.0,
+      "fired_rules": [
+        "ht_001",
+        "ht_002",
+        "ht_003"
+      ],
+      "breakdown": [
+        {
+          "rule_id": "ht_001",
+          "description": "ht_001",
+          "amount": 600.0
+        },
+        {
+          "rule_id": "ht_002",
+          "description": "ht_002",
+          "amount": 540.0
+        },
+        {
+          "rule_id": "ht_003",
+          "description": "ht_003",
+          "amount": 1035.0
+        }
+      ],
+      "constraints_applied": [],
+      "conflict": false,
+      "conflicting_rules": []
+    }
+  }
+]

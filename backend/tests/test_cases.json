@@ -1,0 +1,52 @@
+{
+  "ecommerce": [
+    {"test_id":"ec_test_01","input":{"inventory_pct":0.15,"demand_score":0.3,"customer_segment":"regular","mrp":1000,"cost_price":550,"base_price":800},
+     "fired_rules":["ec_001"],"expected_final_price":864},
+
+    {"test_id":"ec_test_02","input":{"inventory_pct":0.9,"demand_score":0.2,"customer_segment":"regular","mrp":1000,"cost_price":550,"base_price":800},
+     "fired_rules":["ec_002"],"expected_final_price":704},
+
+    {"test_id":"ec_test_03","input":{"inventory_pct":0.5,"demand_score":0.85,"customer_segment":"regular","mrp":1000,"cost_price":550,"base_price":800},
+     "fired_rules":["ec_003"],"expected_final_price":848},
+
+    {"test_id":"ec_test_04","input":{"inventory_pct":0.5,"demand_score":0.3,"customer_segment":"loyalty","mrp":1000,"cost_price":550,"base_price":800},
+     "fired_rules":["ec_004"],"expected_final_price":760},
+
+    {"test_id":"ec_test_05","input":{"inventory_pct":0.1,"demand_score":0.8,"customer_segment":"regular","mrp":1000,"cost_price":550,"base_price":800},
+     "fired_rules":["ec_001","ec_003"],"expected_final_price":915.84},
+
+    {"test_id":"ec_test_06","input":{"inventory_pct":0.15,"demand_score":0.4,"customer_segment":"loyalty","mrp":1000,"cost_price":550,"base_price":800},
+     "fired_rules":["ec_001","ec_004"],"expected_final_price":820.8},
+
+    {"test_id":"ec_test_07_cap_check","input":{"inventory_pct":0.05,"demand_score":0.95,"customer_segment":"regular","mrp":1000,"cost_price":550,"base_price":950},
+     "fired_rules":["ec_001","ec_003"],"note":"uncapped math = 1087.56, but max_price = mrp (1000) caps it — proves the MRP ceiling","expected_final_price":1000},
+
+    {"test_id":"ec_test_08_floor_check","input":{"inventory_pct":0.85,"demand_score":0.1,"customer_segment":"loyalty","mrp":1000,"cost_price":750,"base_price":800},
+     "fired_rules":["ec_002","ec_004"],"note":"uncapped math = 668.8, but min_price = cost_price*1.05 (787.5) floors it — proves the margin floor","expected_final_price":787.5}
+  ],
+  "ride_hailing": [
+    {"test_id":"rh_test_01","input":{"demand_supply_ratio":2.0,"is_raining":false,"is_rush_hour":false,"base_fare":100},
+     "fired_rules":["rh_001"],"expected_final_fare":130},
+
+    {"test_id":"rh_test_02","input":{"demand_supply_ratio":3.0,"is_raining":false,"is_rush_hour":false,"base_fare":100},
+     "fired_rules":["rh_002"],"expected_final_fare":160},
+
+    {"test_id":"rh_test_03","input":{"demand_supply_ratio":1.0,"is_raining":true,"is_rush_hour":false,"base_fare":100},
+     "fired_rules":["rh_003"],"expected_final_fare":115},
+
+    {"test_id":"rh_test_04","input":{"demand_supply_ratio":1.0,"is_raining":false,"is_rush_hour":true,"base_fare":100},
+     "fired_rules":["rh_004"],"expected_final_fare":110},
+
+    {"test_id":"rh_test_05","input":{"demand_supply_ratio":1.8,"is_raining":true,"is_rush_hour":false,"base_fare":100},
+     "fired_rules":["rh_001","rh_003"],"expected_final_fare":149.5},
+
+    {"test_id":"rh_test_06","input":{"demand_supply_ratio":2.2,"is_raining":true,"is_rush_hour":true,"base_fare":100},
+     "fired_rules":["rh_001","rh_003","rh_004"],"expected_final_fare":164.45},
+
+    {"test_id":"rh_test_07_cap_check","input":{"demand_supply_ratio":3.5,"is_raining":true,"is_rush_hour":true,"base_fare":100},
+     "fired_rules":["rh_002","rh_003","rh_004"],"note":"uncapped math = 202.4, but max_multiplier = 2.0 caps this at 200 — proves the MVAG 2025 regulatory ceiling","expected_final_fare":200},
+
+    {"test_id":"rh_test_08_baseline","input":{"demand_supply_ratio":1.0,"is_raining":false,"is_rush_hour":false,"base_fare":100},
+     "fired_rules":[],"note":"sanity check — nothing fires, price should equal base fare exactly","expected_final_fare":100}
+  ]
+}

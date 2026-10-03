@@ -1,0 +1,16 @@
+{
+  "domain": "hotel",
+  "base_price_field": "base_price",
+  "rules": [
+    {"id":"ht_001","conditions":[{"field":"occupancy_pct","op":">","value":0.8}],
+     "action":{"type":"percent_increase","value":20},"priority":1},
+    {"id":"ht_002","conditions":[{"field":"is_weekend","op":"==","value":true}],
+     "action":{"type":"percent_increase","value":15},"priority":2},
+    {"id":"ht_003","conditions":[{"field":"season","op":"==","value":"peak"}],
+     "action":{"type":"percent_increase","value":25},"priority":2}
+  ],
+  "constraints": {
+    "max_multiplier": 2.0,
+    "min_multiplier": 0.6
+  }
+}

@@ -1,0 +1,8006 @@
+{
+  "ecommerce": [
+    {
+      "id": "ec_0",
+      "inventory_pct": 0.11,
+      "demand_score": 0.69,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_1",
+      "inventory_pct": 0.92,
+      "demand_score": 0.66,
+      "customer_segment": "loyalty",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_2",
+      "inventory_pct": 0.69,
+      "demand_score": 0.72,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_3",
+      "inventory_pct": 0.59,
+      "demand_score": 0.78,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_4",
+      "inventory_pct": 0.99,
+      "demand_score": 0.12,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_5",
+      "inventory_pct": 0.7,
+      "demand_score": 0.92,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_6",
+      "inventory_pct": 0.2,
+      "demand_score": 0.43,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_7",
+      "inventory_pct": 0.92,
+      "demand_score": 0.89,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_8",
+      "inventory_pct": 0.36,
+      "demand_score": 0.3,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_9",
+      "inventory_pct": 0.08,
+      "demand_score": 0.24,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_10",
+      "inventory_pct": 0.32,
+      "demand_score": 0.48,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_11",
+      "inventory_pct": 0.19,
+      "demand_score": 0.12,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_12",
+      "inventory_pct": 0.96,
+      "demand_score": 0.68,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_13",
+      "inventory_pct": 0.81,
+      "demand_score": 0.11,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_14",
+      "inventory_pct": 0.8,
+      "demand_score": 0.56,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_15",
+      "inventory_pct": 0.93,
+      "demand_score": 0.29,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_16",
+      "inventory_pct": 0.32,
+      "demand_score": 0.06,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_17",
+      "inventory_pct": 0.25,
+      "demand_score": 0.41,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_18",
+      "inventory_pct": 0.55,
+      "demand_score": 0.75,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_19",
+      "inventory_pct": 0.15,
+      "demand_score": 0.08,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_20",
+      "inventory_pct": 0.33,
+      "demand_score": 0.01,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_21",
+      "inventory_pct": 0.01,
+      "demand_score": 0.68,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_22",
+      "inventory_pct": 0.19,
+      "demand_score": 0.74,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_23",
+      "inventory_pct": 0.09,
+      "demand_score": 1.0,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_24",
+      "inventory_pct": 0.17,
+      "demand_score": 0.67,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_25",
+      "inventory_pct": 0.44,
+      "demand_score": 0.58,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_26",
+      "inventory_pct": 0.91,
+      "demand_score": 0.52,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_27",
+      "inventory_pct": 0.12,
+      "demand_score": 0.46,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_28",
+      "inventory_pct": 0.78,
+      "demand_score": 0.09,
+      "customer_segment": "loyalty",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_29",
+      "inventory_pct": 0.92,
+      "demand_score": 0.23,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_30",
+      "inventory_pct": 0.94,
+      "demand_score": 0.54,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_31",
+      "inventory_pct": 0.65,
+      "demand_score": 0.98,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_32",
+      "inventory_pct": 0.86,
+      "demand_score": 0.82,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_33",
+      "inventory_pct": 0.57,
+      "demand_score": 0.85,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_34",
+      "inventory_pct": 0.91,
+      "demand_score": 0.56,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_35",
+      "inventory_pct": 0.5,
+      "demand_score": 0.57,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_36",
+      "inventory_pct": 0.89,
+      "demand_score": 0.2,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_37",
+      "inventory_pct": 0.76,
+      "demand_score": 0.13,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_38",
+      "inventory_pct": 0.46,
+      "demand_score": 0.5,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_39",
+      "inventory_pct": 0.27,
+      "demand_score": 0.69,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_40",
+      "inventory_pct": 0.91,
+      "demand_score": 0.6,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_41",
+      "inventory_pct": 0.35,
+      "demand_score": 0.65,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_42",
+      "inventory_pct": 0.97,
+      "demand_score": 0.06,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_43",
+      "inventory_pct": 0.93,
+      "demand_score": 0.53,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_44",
+      "inventory_pct": 0.36,
+      "demand_score": 0.43,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_45",
+      "inventory_pct": 0.36,
+      "demand_score": 0.12,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_46",
+      "inventory_pct": 0.38,
+      "demand_score": 0.67,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_47",
+      "inventory_pct": 0.29,
+      "demand_score": 0.69,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_48",
+      "inventory_pct": 0.43,
+      "demand_score": 0.1,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_49",
+      "inventory_pct": 0.82,
+      "demand_score": 0.97,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_50",
+      "inventory_pct": 0.0,
+      "demand_score": 0.73,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_51",
+      "inventory_pct": 0.26,
+      "demand_score": 0.35,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_52",
+      "inventory_pct": 0.88,
+      "demand_score": 0.3,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_53",
+      "inventory_pct": 0.3,
+      "demand_score": 0.43,
+      "customer_segment": "loyalty",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_54",
+      "inventory_pct": 0.75,
+      "demand_score": 0.27,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_55",
+      "inventory_pct": 0.45,
+      "demand_score": 0.22,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_56",
+      "inventory_pct": 0.37,
+      "demand_score": 0.87,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_57",
+      "inventory_pct": 0.28,
+      "demand_score": 0.94,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_58",
+      "inventory_pct": 0.77,
+      "demand_score": 0.92,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_59",
+      "inventory_pct": 0.34,
+      "demand_score": 0.46,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_60",
+      "inventory_pct": 0.81,
+      "demand_score": 0.82,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_61",
+      "inventory_pct": 0.07,
+      "demand_score": 0.69,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_62",
+      "inventory_pct": 0.36,
+      "demand_score": 0.22,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_63",
+      "inventory_pct": 0.85,
+      "demand_score": 1.0,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_64",
+      "inventory_pct": 0.94,
+      "demand_score": 0.79,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_65",
+      "inventory_pct": 0.57,
+      "demand_score": 0.29,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_66",
+      "inventory_pct": 0.06,
+      "demand_score": 0.74,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_67",
+      "inventory_pct": 0.15,
+      "demand_score": 0.67,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_68",
+      "inventory_pct": 0.1,
+      "demand_score": 0.95,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_69",
+      "inventory_pct": 0.22,
+      "demand_score": 0.56,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_70",
+      "inventory_pct": 0.78,
+      "demand_score": 0.68,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_71",
+      "inventory_pct": 0.46,
+      "demand_score": 0.07,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_72",
+      "inventory_pct": 0.52,
+      "demand_score": 0.37,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_73",
+      "inventory_pct": 0.69,
+      "demand_score": 0.48,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_74",
+      "inventory_pct": 0.93,
+      "demand_score": 0.78,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_75",
+      "inventory_pct": 0.99,
+      "demand_score": 0.82,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_76",
+      "inventory_pct": 0.77,
+      "demand_score": 0.32,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_77",
+      "inventory_pct": 0.44,
+      "demand_score": 0.73,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_78",
+      "inventory_pct": 0.6,
+      "demand_score": 0.44,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_79",
+      "inventory_pct": 0.24,
+      "demand_score": 0.4,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_80",
+      "inventory_pct": 0.36,
+      "demand_score": 0.02,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_81",
+      "inventory_pct": 0.72,
+      "demand_score": 0.69,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_82",
+      "inventory_pct": 0.33,
+      "demand_score": 0.09,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_83",
+      "inventory_pct": 0.53,
+      "demand_score": 0.5,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_84",
+      "inventory_pct": 0.6,
+      "demand_score": 0.74,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_85",
+      "inventory_pct": 0.65,
+      "demand_score": 0.63,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_86",
+      "inventory_pct": 0.21,
+      "demand_score": 0.06,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_87",
+      "inventory_pct": 0.71,
+      "demand_score": 0.68,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_88",
+      "inventory_pct": 0.73,
+      "demand_score": 0.26,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_89",
+      "inventory_pct": 0.72,
+      "demand_score": 0.85,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_90",
+      "inventory_pct": 0.2,
+      "demand_score": 0.05,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_91",
+      "inventory_pct": 0.7,
+      "demand_score": 0.41,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_92",
+      "inventory_pct": 0.27,
+      "demand_score": 0.48,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_93",
+      "inventory_pct": 0.12,
+      "demand_score": 0.74,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_94",
+      "inventory_pct": 0.34,
+      "demand_score": 0.84,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_95",
+      "inventory_pct": 0.87,
+      "demand_score": 0.5,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_96",
+      "inventory_pct": 0.61,
+      "demand_score": 0.54,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_97",
+      "inventory_pct": 0.26,
+      "demand_score": 0.07,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_98",
+      "inventory_pct": 0.58,
+      "demand_score": 0.42,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_99",
+      "inventory_pct": 0.2,
+      "demand_score": 0.46,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_100",
+      "inventory_pct": 0.35,
+      "demand_score": 0.61,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_101",
+      "inventory_pct": 0.87,
+      "demand_score": 0.62,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_102",
+      "inventory_pct": 0.93,
+      "demand_score": 0.9,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_103",
+      "inventory_pct": 0.59,
+      "demand_score": 0.05,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_104",
+      "inventory_pct": 0.5,
+      "demand_score": 0.87,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_105",
+      "inventory_pct": 0.33,
+      "demand_score": 0.79,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_106",
+      "inventory_pct": 0.4,
+      "demand_score": 0.11,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_107",
+      "inventory_pct": 0.87,
+      "demand_score": 0.01,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_108",
+      "inventory_pct": 0.79,
+      "demand_score": 0.07,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_109",
+      "inventory_pct": 0.44,
+      "demand_score": 0.03,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_110",
+      "inventory_pct": 0.58,
+      "demand_score": 0.86,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_111",
+      "inventory_pct": 0.51,
+      "demand_score": 0.66,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_112",
+      "inventory_pct": 0.34,
+      "demand_score": 0.06,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_113",
+      "inventory_pct": 0.84,
+      "demand_score": 0.68,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_114",
+      "inventory_pct": 0.23,
+      "demand_score": 0.06,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_115",
+      "inventory_pct": 0.92,
+      "demand_score": 0.25,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_116",
+      "inventory_pct": 0.85,
+      "demand_score": 1.0,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_117",
+      "inventory_pct": 0.69,
+      "demand_score": 0.56,
+      "customer_segment": "loyalty",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_118",
+      "inventory_pct": 0.65,
+      "demand_score": 0.06,
+      "customer_segment": "loyalty",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_119",
+      "inventory_pct": 0.68,
+      "demand_score": 0.83,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_120",
+      "inventory_pct": 0.96,
+      "demand_score": 0.7,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_121",
+      "inventory_pct": 0.97,
+      "demand_score": 0.08,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_122",
+      "inventory_pct": 0.86,
+      "demand_score": 1.0,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_123",
+      "inventory_pct": 0.56,
+      "demand_score": 0.17,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_124",
+      "inventory_pct": 0.32,
+      "demand_score": 0.22,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_125",
+      "inventory_pct": 0.54,
+      "demand_score": 0.48,
+      "customer_segment": "loyalty",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_126",
+      "inventory_pct": 0.39,
+      "demand_score": 0.08,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_127",
+      "inventory_pct": 0.41,
+      "demand_score": 0.81,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_128",
+      "inventory_pct": 0.77,
+      "demand_score": 0.6,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_129",
+      "inventory_pct": 0.16,
+      "demand_score": 0.4,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_130",
+      "inventory_pct": 0.81,
+      "demand_score": 0.15,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_131",
+      "inventory_pct": 0.69,
+      "demand_score": 0.56,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_132",
+      "inventory_pct": 0.53,
+      "demand_score": 0.14,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_133",
+      "inventory_pct": 0.38,
+      "demand_score": 0.75,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_134",
+      "inventory_pct": 0.08,
+      "demand_score": 0.68,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_135",
+      "inventory_pct": 0.98,
+      "demand_score": 0.91,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_136",
+      "inventory_pct": 0.21,
+      "demand_score": 0.39,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_137",
+      "inventory_pct": 0.4,
+      "demand_score": 0.23,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_138",
+      "inventory_pct": 0.26,
+      "demand_score": 0.81,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_139",
+      "inventory_pct": 0.44,
+      "demand_score": 0.64,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_140",
+      "inventory_pct": 0.47,
+      "demand_score": 0.15,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_141",
+      "inventory_pct": 0.88,
+      "demand_score": 0.16,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_142",
+      "inventory_pct": 0.57,
+      "demand_score": 0.79,
+      "customer_segment": "loyalty",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_143",
+      "inventory_pct": 0.05,
+      "demand_score": 0.69,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_144",
+      "inventory_pct": 0.53,
+      "demand_score": 0.55,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_145",
+      "inventory_pct": 0.02,
+      "demand_score": 0.23,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_146",
+      "inventory_pct": 0.09,
+      "demand_score": 0.89,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_147",
+      "inventory_pct": 0.97,
+      "demand_score": 0.05,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_148",
+      "inventory_pct": 0.49,
+      "demand_score": 0.91,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_149",
+      "inventory_pct": 0.96,
+      "demand_score": 0.08,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_150",
+      "inventory_pct": 0.65,
+      "demand_score": 0.18,
+      "customer_segment": "loyalty",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_151",
+      "inventory_pct": 0.19,
+      "demand_score": 0.56,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_152",
+      "inventory_pct": 0.47,
+      "demand_score": 0.46,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_153",
+      "inventory_pct": 0.09,
+      "demand_score": 0.34,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_154",
+      "inventory_pct": 0.79,
+      "demand_score": 0.55,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_155",
+      "inventory_pct": 0.53,
+      "demand_score": 0.69,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_156",
+      "inventory_pct": 0.94,
+      "demand_score": 0.4,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_157",
+      "inventory_pct": 0.2,
+      "demand_score": 0.58,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_158",
+      "inventory_pct": 0.01,
+      "demand_score": 0.11,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_159",
+      "inventory_pct": 0.72,
+      "demand_score": 0.63,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_160",
+      "inventory_pct": 0.19,
+      "demand_score": 0.96,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_161",
+      "inventory_pct": 0.18,
+      "demand_score": 0.96,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_162",
+      "inventory_pct": 0.1,
+      "demand_score": 0.84,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_163",
+      "inventory_pct": 0.23,
+      "demand_score": 0.83,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_164",
+      "inventory_pct": 0.33,
+      "demand_score": 0.95,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_165",
+      "inventory_pct": 0.11,
+      "demand_score": 0.25,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_166",
+      "inventory_pct": 0.3,
+      "demand_score": 0.12,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_167",
+      "inventory_pct": 1.0,
+      "demand_score": 0.22,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_168",
+      "inventory_pct": 0.02,
+      "demand_score": 0.68,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_169",
+      "inventory_pct": 0.77,
+      "demand_score": 0.32,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_170",
+      "inventory_pct": 0.91,
+      "demand_score": 0.59,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_171",
+      "inventory_pct": 0.18,
+      "demand_score": 0.88,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_172",
+      "inventory_pct": 0.21,
+      "demand_score": 0.45,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_173",
+      "inventory_pct": 0.27,
+      "demand_score": 0.33,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_174",
+      "inventory_pct": 0.6,
+      "demand_score": 0.44,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_175",
+      "inventory_pct": 0.93,
+      "demand_score": 0.32,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_176",
+      "inventory_pct": 0.09,
+      "demand_score": 0.81,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_177",
+      "inventory_pct": 0.59,
+      "demand_score": 0.61,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_178",
+      "inventory_pct": 0.66,
+      "demand_score": 0.05,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_179",
+      "inventory_pct": 0.75,
+      "demand_score": 0.3,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_180",
+      "inventory_pct": 0.62,
+      "demand_score": 0.31,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_181",
+      "inventory_pct": 0.35,
+      "demand_score": 0.58,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_182",
+      "inventory_pct": 0.11,
+      "demand_score": 0.87,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_183",
+      "inventory_pct": 0.39,
+      "demand_score": 0.67,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_184",
+      "inventory_pct": 0.52,
+      "demand_score": 0.55,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_185",
+      "inventory_pct": 0.96,
+      "demand_score": 0.69,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_186",
+      "inventory_pct": 0.62,
+      "demand_score": 0.69,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_187",
+      "inventory_pct": 0.34,
+      "demand_score": 0.75,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_188",
+      "inventory_pct": 0.17,
+      "demand_score": 0.24,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_189",
+      "inventory_pct": 0.0,
+      "demand_score": 0.9,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_190",
+      "inventory_pct": 0.36,
+      "demand_score": 0.42,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_191",
+      "inventory_pct": 0.87,
+      "demand_score": 0.05,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_192",
+      "inventory_pct": 0.28,
+      "demand_score": 0.99,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_193",
+      "inventory_pct": 0.33,
+      "demand_score": 0.91,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_194",
+      "inventory_pct": 0.18,
+      "demand_score": 0.49,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_195",
+      "inventory_pct": 0.27,
+      "demand_score": 0.49,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_196",
+      "inventory_pct": 0.07,
+      "demand_score": 0.52,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_197",
+      "inventory_pct": 0.68,
+      "demand_score": 0.32,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_198",
+      "inventory_pct": 0.53,
+      "demand_score": 0.88,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_199",
+      "inventory_pct": 0.36,
+      "demand_score": 0.39,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_200",
+      "inventory_pct": 0.92,
+      "demand_score": 0.87,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_201",
+      "inventory_pct": 0.07,
+      "demand_score": 0.17,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_202",
+      "inventory_pct": 0.41,
+      "demand_score": 0.94,
+      "customer_segment": "loyalty",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_203",
+      "inventory_pct": 0.97,
+      "demand_score": 0.11,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_204",
+      "inventory_pct": 0.57,
+      "demand_score": 0.28,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_205",
+      "inventory_pct": 0.44,
+      "demand_score": 0.25,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_206",
+      "inventory_pct": 0.08,
+      "demand_score": 0.84,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_207",
+      "inventory_pct": 0.5,
+      "demand_score": 0.58,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_208",
+      "inventory_pct": 0.16,
+      "demand_score": 0.27,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_209",
+      "inventory_pct": 0.24,
+      "demand_score": 0.8,
+      "customer_segment": "loyalty",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_210",
+      "inventory_pct": 0.17,
+      "demand_score": 0.32,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_211",
+      "inventory_pct": 0.31,
+      "demand_score": 0.33,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_212",
+      "inventory_pct": 0.22,
+      "demand_score": 0.01,
+      "customer_segment": "loyalty",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_213",
+      "inventory_pct": 0.91,
+      "demand_score": 0.29,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_214",
+      "inventory_pct": 0.86,
+      "demand_score": 0.47,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_215",
+      "inventory_pct": 0.46,
+      "demand_score": 0.05,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_216",
+      "inventory_pct": 0.34,
+      "demand_score": 0.75,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_217",
+      "inventory_pct": 0.37,
+      "demand_score": 0.95,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_218",
+      "inventory_pct": 0.11,
+      "demand_score": 0.33,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_219",
+      "inventory_pct": 0.45,
+      "demand_score": 0.09,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_220",
+      "inventory_pct": 0.15,
+      "demand_score": 0.04,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_221",
+      "inventory_pct": 0.9,
+      "demand_score": 0.45,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_222",
+      "inventory_pct": 0.47,
+      "demand_score": 0.94,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_223",
+      "inventory_pct": 0.5,
+      "demand_score": 0.83,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_224",
+      "inventory_pct": 0.17,
+      "demand_score": 0.18,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_225",
+      "inventory_pct": 0.18,
+      "demand_score": 0.19,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_226",
+      "inventory_pct": 0.01,
+      "demand_score": 0.19,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_227",
+      "inventory_pct": 0.68,
+      "demand_score": 0.98,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_228",
+      "inventory_pct": 0.6,
+      "demand_score": 0.08,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_229",
+      "inventory_pct": 0.89,
+      "demand_score": 0.99,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_230",
+      "inventory_pct": 0.97,
+      "demand_score": 0.17,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_231",
+      "inventory_pct": 0.21,
+      "demand_score": 0.36,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_232",
+      "inventory_pct": 0.97,
+      "demand_score": 0.77,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_233",
+      "inventory_pct": 0.98,
+      "demand_score": 0.35,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_234",
+      "inventory_pct": 0.29,
+      "demand_score": 0.36,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_235",
+      "inventory_pct": 0.79,
+      "demand_score": 0.17,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_236",
+      "inventory_pct": 0.55,
+      "demand_score": 0.95,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_237",
+      "inventory_pct": 0.31,
+      "demand_score": 0.46,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_238",
+      "inventory_pct": 0.12,
+      "demand_score": 0.56,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_239",
+      "inventory_pct": 0.14,
+      "demand_score": 0.64,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_240",
+      "inventory_pct": 0.51,
+      "demand_score": 0.86,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_241",
+      "inventory_pct": 0.18,
+      "demand_score": 0.65,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_242",
+      "inventory_pct": 0.94,
+      "demand_score": 0.42,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_243",
+      "inventory_pct": 0.02,
+      "demand_score": 0.62,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_244",
+      "inventory_pct": 0.58,
+      "demand_score": 0.33,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_245",
+      "inventory_pct": 0.06,
+      "demand_score": 0.44,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_246",
+      "inventory_pct": 0.96,
+      "demand_score": 0.14,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_247",
+      "inventory_pct": 0.57,
+      "demand_score": 0.28,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_248",
+      "inventory_pct": 0.39,
+      "demand_score": 0.3,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_249",
+      "inventory_pct": 0.68,
+      "demand_score": 0.94,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_250",
+      "inventory_pct": 0.22,
+      "demand_score": 0.96,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_251",
+      "inventory_pct": 0.54,
+      "demand_score": 0.44,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_252",
+      "inventory_pct": 0.53,
+      "demand_score": 0.82,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_253",
+      "inventory_pct": 1.0,
+      "demand_score": 0.93,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_254",
+      "inventory_pct": 0.23,
+      "demand_score": 0.58,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_255",
+      "inventory_pct": 0.85,
+      "demand_score": 0.06,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_256",
+      "inventory_pct": 0.37,
+      "demand_score": 0.22,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_257",
+      "inventory_pct": 0.75,
+      "demand_score": 0.31,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_258",
+      "inventory_pct": 0.07,
+      "demand_score": 0.41,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_259",
+      "inventory_pct": 0.81,
+      "demand_score": 0.86,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_260",
+      "inventory_pct": 0.38,
+      "demand_score": 0.08,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_261",
+      "inventory_pct": 0.13,
+      "demand_score": 0.68,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_262",
+      "inventory_pct": 0.83,
+      "demand_score": 0.11,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_263",
+      "inventory_pct": 0.52,
+      "demand_score": 0.5,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_264",
+      "inventory_pct": 0.07,
+      "demand_score": 0.93,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_265",
+      "inventory_pct": 0.78,
+      "demand_score": 0.57,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_266",
+      "inventory_pct": 0.38,
+      "demand_score": 0.78,
+      "customer_segment": "loyalty",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_267",
+      "inventory_pct": 0.21,
+      "demand_score": 0.08,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_268",
+      "inventory_pct": 0.33,
+      "demand_score": 0.87,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_269",
+      "inventory_pct": 0.59,
+      "demand_score": 0.79,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_270",
+      "inventory_pct": 0.65,
+      "demand_score": 0.3,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_271",
+      "inventory_pct": 0.9,
+      "demand_score": 0.4,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_272",
+      "inventory_pct": 0.15,
+      "demand_score": 0.1,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_273",
+      "inventory_pct": 0.35,
+      "demand_score": 0.82,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_274",
+      "inventory_pct": 0.43,
+      "demand_score": 0.99,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_275",
+      "inventory_pct": 0.81,
+      "demand_score": 0.78,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_276",
+      "inventory_pct": 0.59,
+      "demand_score": 0.89,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_277",
+      "inventory_pct": 0.34,
+      "demand_score": 0.91,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_278",
+      "inventory_pct": 0.89,
+      "demand_score": 0.42,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_279",
+      "inventory_pct": 0.73,
+      "demand_score": 0.16,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_280",
+      "inventory_pct": 0.8,
+      "demand_score": 0.31,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_281",
+      "inventory_pct": 0.26,
+      "demand_score": 0.75,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_282",
+      "inventory_pct": 0.51,
+      "demand_score": 0.5,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_283",
+      "inventory_pct": 0.29,
+      "demand_score": 0.35,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_284",
+      "inventory_pct": 0.22,
+      "demand_score": 0.39,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_285",
+      "inventory_pct": 0.49,
+      "demand_score": 0.88,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_286",
+      "inventory_pct": 0.41,
+      "demand_score": 0.87,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_287",
+      "inventory_pct": 0.12,
+      "demand_score": 0.77,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_288",
+      "inventory_pct": 0.63,
+      "demand_score": 0.58,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_289",
+      "inventory_pct": 0.16,
+      "demand_score": 0.24,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_290",
+      "inventory_pct": 0.89,
+      "demand_score": 0.59,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_291",
+      "inventory_pct": 0.44,
+      "demand_score": 0.72,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_292",
+      "inventory_pct": 0.83,
+      "demand_score": 0.91,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_293",
+      "inventory_pct": 0.19,
+      "demand_score": 0.89,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_294",
+      "inventory_pct": 0.01,
+      "demand_score": 0.25,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_295",
+      "inventory_pct": 0.89,
+      "demand_score": 0.17,
+      "customer_segment": "loyalty",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_296",
+      "inventory_pct": 0.53,
+      "demand_score": 0.69,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_297",
+      "inventory_pct": 0.58,
+      "demand_score": 0.9,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_298",
+      "inventory_pct": 0.95,
+      "demand_score": 0.67,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_299",
+      "inventory_pct": 0.78,
+      "demand_score": 0.07,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_300",
+      "inventory_pct": 0.14,
+      "demand_score": 0.45,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_301",
+      "inventory_pct": 0.69,
+      "demand_score": 0.44,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_302",
+      "inventory_pct": 0.99,
+      "demand_score": 0.3,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_303",
+      "inventory_pct": 0.25,
+      "demand_score": 0.67,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_304",
+      "inventory_pct": 0.79,
+      "demand_score": 0.14,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_305",
+      "inventory_pct": 0.77,
+      "demand_score": 0.63,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_306",
+      "inventory_pct": 0.41,
+      "demand_score": 0.95,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_307",
+      "inventory_pct": 0.46,
+      "demand_score": 0.99,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_308",
+      "inventory_pct": 0.91,
+      "demand_score": 0.02,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_309",
+      "inventory_pct": 0.52,
+      "demand_score": 0.05,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_310",
+      "inventory_pct": 0.06,
+      "demand_score": 0.84,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_311",
+      "inventory_pct": 0.53,
+      "demand_score": 0.88,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_312",
+      "inventory_pct": 0.88,
+      "demand_score": 0.97,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_313",
+      "inventory_pct": 0.79,
+      "demand_score": 0.23,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_314",
+      "inventory_pct": 0.35,
+      "demand_score": 0.14,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_315",
+      "inventory_pct": 0.83,
+      "demand_score": 0.57,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_316",
+      "inventory_pct": 0.59,
+      "demand_score": 0.72,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_317",
+      "inventory_pct": 0.62,
+      "demand_score": 0.39,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_318",
+      "inventory_pct": 0.52,
+      "demand_score": 0.06,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_319",
+      "inventory_pct": 0.43,
+      "demand_score": 0.93,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_320",
+      "inventory_pct": 0.74,
+      "demand_score": 0.19,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_321",
+      "inventory_pct": 0.57,
+      "demand_score": 0.99,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_322",
+      "inventory_pct": 0.85,
+      "demand_score": 0.66,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_323",
+      "inventory_pct": 0.85,
+      "demand_score": 0.3,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_324",
+      "inventory_pct": 0.87,
+      "demand_score": 0.8,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_325",
+      "inventory_pct": 0.86,
+      "demand_score": 0.7,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_326",
+      "inventory_pct": 0.56,
+      "demand_score": 0.34,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_327",
+      "inventory_pct": 0.67,
+      "demand_score": 0.95,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_328",
+      "inventory_pct": 0.23,
+      "demand_score": 0.68,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_329",
+      "inventory_pct": 0.12,
+      "demand_score": 0.83,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_330",
+      "inventory_pct": 0.25,
+      "demand_score": 0.99,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_331",
+      "inventory_pct": 0.41,
+      "demand_score": 0.54,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_332",
+      "inventory_pct": 0.26,
+      "demand_score": 0.05,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_333",
+      "inventory_pct": 0.96,
+      "demand_score": 0.11,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_334",
+      "inventory_pct": 0.02,
+      "demand_score": 0.68,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_335",
+      "inventory_pct": 1.0,
+      "demand_score": 0.34,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_336",
+      "inventory_pct": 0.8,
+      "demand_score": 0.63,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_337",
+      "inventory_pct": 0.01,
+      "demand_score": 0.78,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_338",
+      "inventory_pct": 0.4,
+      "demand_score": 0.23,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_339",
+      "inventory_pct": 0.23,
+      "demand_score": 0.89,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_340",
+      "inventory_pct": 0.54,
+      "demand_score": 0.73,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_341",
+      "inventory_pct": 0.81,
+      "demand_score": 0.77,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_342",
+      "inventory_pct": 0.64,
+      "demand_score": 0.99,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_343",
+      "inventory_pct": 0.15,
+      "demand_score": 0.82,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_344",
+      "inventory_pct": 0.84,
+      "demand_score": 0.29,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_345",
+      "inventory_pct": 0.69,
+      "demand_score": 0.32,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_346",
+      "inventory_pct": 0.88,
+      "demand_score": 0.2,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_347",
+      "inventory_pct": 0.1,
+      "demand_score": 0.93,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_348",
+      "inventory_pct": 0.56,
+      "demand_score": 0.65,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_349",
+      "inventory_pct": 0.87,
+      "demand_score": 0.32,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_350",
+      "inventory_pct": 0.75,
+      "demand_score": 0.21,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_351",
+      "inventory_pct": 0.94,
+      "demand_score": 0.47,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_352",
+      "inventory_pct": 0.58,
+      "demand_score": 0.33,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_353",
+      "inventory_pct": 0.84,
+      "demand_score": 0.09,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_354",
+      "inventory_pct": 0.01,
+      "demand_score": 0.68,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_355",
+      "inventory_pct": 0.53,
+      "demand_score": 0.43,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_356",
+      "inventory_pct": 1.0,
+      "demand_score": 0.44,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_357",
+      "inventory_pct": 0.01,
+      "demand_score": 0.28,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_358",
+      "inventory_pct": 0.82,
+      "demand_score": 0.74,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_359",
+      "inventory_pct": 0.88,
+      "demand_score": 0.83,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_360",
+      "inventory_pct": 0.11,
+      "demand_score": 0.9,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_361",
+      "inventory_pct": 0.59,
+      "demand_score": 0.69,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_362",
+      "inventory_pct": 0.1,
+      "demand_score": 0.99,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_363",
+      "inventory_pct": 0.12,
+      "demand_score": 0.2,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_364",
+      "inventory_pct": 0.39,
+      "demand_score": 0.71,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_365",
+      "inventory_pct": 0.8,
+      "demand_score": 0.16,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_366",
+      "inventory_pct": 0.04,
+      "demand_score": 0.59,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_367",
+      "inventory_pct": 0.76,
+      "demand_score": 0.29,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_368",
+      "inventory_pct": 0.26,
+      "demand_score": 0.02,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_369",
+      "inventory_pct": 0.96,
+      "demand_score": 0.81,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_370",
+      "inventory_pct": 0.82,
+      "demand_score": 0.25,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_371",
+      "inventory_pct": 0.58,
+      "demand_score": 0.27,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_372",
+      "inventory_pct": 0.72,
+      "demand_score": 0.81,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_373",
+      "inventory_pct": 0.87,
+      "demand_score": 0.71,
+      "customer_segment": "loyalty",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_374",
+      "inventory_pct": 0.68,
+      "demand_score": 0.16,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_375",
+      "inventory_pct": 0.88,
+      "demand_score": 0.5,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_376",
+      "inventory_pct": 0.79,
+      "demand_score": 0.57,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_377",
+      "inventory_pct": 0.03,
+      "demand_score": 0.12,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_378",
+      "inventory_pct": 0.5,
+      "demand_score": 0.12,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_379",
+      "inventory_pct": 0.37,
+      "demand_score": 0.51,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_380",
+      "inventory_pct": 0.62,
+      "demand_score": 0.9,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_381",
+      "inventory_pct": 0.27,
+      "demand_score": 0.25,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_382",
+      "inventory_pct": 0.03,
+      "demand_score": 0.71,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_383",
+      "inventory_pct": 0.22,
+      "demand_score": 0.2,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_384",
+      "inventory_pct": 0.94,
+      "demand_score": 0.45,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_385",
+      "inventory_pct": 0.61,
+      "demand_score": 0.66,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_386",
+      "inventory_pct": 0.42,
+      "demand_score": 0.37,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_387",
+      "inventory_pct": 0.49,
+      "demand_score": 0.62,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_388",
+      "inventory_pct": 0.83,
+      "demand_score": 0.5,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_389",
+      "inventory_pct": 0.33,
+      "demand_score": 0.87,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_390",
+      "inventory_pct": 0.78,
+      "demand_score": 0.82,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_391",
+      "inventory_pct": 0.85,
+      "demand_score": 0.45,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_392",
+      "inventory_pct": 0.0,
+      "demand_score": 0.69,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_393",
+      "inventory_pct": 0.65,
+      "demand_score": 0.64,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_394",
+      "inventory_pct": 0.21,
+      "demand_score": 0.71,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_395",
+      "inventory_pct": 0.49,
+      "demand_score": 0.2,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_396",
+      "inventory_pct": 0.8,
+      "demand_score": 0.46,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_397",
+      "inventory_pct": 0.32,
+      "demand_score": 0.23,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_398",
+      "inventory_pct": 0.72,
+      "demand_score": 0.81,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_399",
+      "inventory_pct": 0.65,
+      "demand_score": 0.94,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_400",
+      "inventory_pct": 0.22,
+      "demand_score": 0.32,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_401",
+      "inventory_pct": 0.88,
+      "demand_score": 0.21,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_402",
+      "inventory_pct": 0.18,
+      "demand_score": 0.38,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_403",
+      "inventory_pct": 0.65,
+      "demand_score": 0.99,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_404",
+      "inventory_pct": 0.2,
+      "demand_score": 0.64,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_405",
+      "inventory_pct": 0.07,
+      "demand_score": 0.07,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_406",
+      "inventory_pct": 0.08,
+      "demand_score": 0.28,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_407",
+      "inventory_pct": 0.79,
+      "demand_score": 0.12,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_408",
+      "inventory_pct": 0.57,
+      "demand_score": 0.81,
+      "customer_segment": "loyalty",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_409",
+      "inventory_pct": 0.79,
+      "demand_score": 0.18,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_410",
+      "inventory_pct": 0.69,
+      "demand_score": 0.27,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_411",
+      "inventory_pct": 0.19,
+      "demand_score": 0.14,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_412",
+      "inventory_pct": 0.08,
+      "demand_score": 0.12,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_413",
+      "inventory_pct": 0.85,
+      "demand_score": 0.29,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_414",
+      "inventory_pct": 0.24,
+      "demand_score": 0.44,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_415",
+      "inventory_pct": 0.28,
+      "demand_score": 0.82,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_416",
+      "inventory_pct": 0.5,
+      "demand_score": 0.56,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_417",
+      "inventory_pct": 0.05,
+      "demand_score": 0.61,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_418",
+      "inventory_pct": 0.93,
+      "demand_score": 0.0,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_419",
+      "inventory_pct": 0.34,
+      "demand_score": 0.51,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_420",
+      "inventory_pct": 0.31,
+      "demand_score": 0.11,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_421",
+      "inventory_pct": 0.14,
+      "demand_score": 0.75,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_422",
+      "inventory_pct": 0.52,
+      "demand_score": 0.09,
+      "customer_segment": "loyalty",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_423",
+      "inventory_pct": 0.04,
+      "demand_score": 0.96,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_424",
+      "inventory_pct": 0.11,
+      "demand_score": 0.36,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_425",
+      "inventory_pct": 0.91,
+      "demand_score": 0.52,
+      "customer_segment": "loyalty",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_426",
+      "inventory_pct": 0.36,
+      "demand_score": 0.13,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_427",
+      "inventory_pct": 1.0,
+      "demand_score": 0.59,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_428",
+      "inventory_pct": 0.91,
+      "demand_score": 0.65,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_429",
+      "inventory_pct": 0.97,
+      "demand_score": 0.42,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_430",
+      "inventory_pct": 0.42,
+      "demand_score": 0.02,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_431",
+      "inventory_pct": 0.26,
+      "demand_score": 0.86,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_432",
+      "inventory_pct": 1.0,
+      "demand_score": 0.52,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_433",
+      "inventory_pct": 0.24,
+      "demand_score": 0.72,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_434",
+      "inventory_pct": 0.64,
+      "demand_score": 0.09,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_435",
+      "inventory_pct": 0.97,
+      "demand_score": 0.55,
+      "customer_segment": "loyalty",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_436",
+      "inventory_pct": 0.01,
+      "demand_score": 0.94,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_437",
+      "inventory_pct": 0.21,
+      "demand_score": 0.73,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_438",
+      "inventory_pct": 0.78,
+      "demand_score": 0.41,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_439",
+      "inventory_pct": 0.01,
+      "demand_score": 0.16,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_440",
+      "inventory_pct": 0.12,
+      "demand_score": 0.05,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_441",
+      "inventory_pct": 0.22,
+      "demand_score": 0.78,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_442",
+      "inventory_pct": 0.8,
+      "demand_score": 0.47,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_443",
+      "inventory_pct": 0.03,
+      "demand_score": 0.95,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_444",
+      "inventory_pct": 0.96,
+      "demand_score": 0.83,
+      "customer_segment": "loyalty",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_445",
+      "inventory_pct": 0.22,
+      "demand_score": 0.02,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_446",
+      "inventory_pct": 0.91,
+      "demand_score": 0.82,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_447",
+      "inventory_pct": 0.48,
+      "demand_score": 0.78,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_448",
+      "inventory_pct": 0.68,
+      "demand_score": 0.85,
+      "customer_segment": "loyalty",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_449",
+      "inventory_pct": 0.9,
+      "demand_score": 0.51,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_450",
+      "inventory_pct": 0.35,
+      "demand_score": 0.35,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_451",
+      "inventory_pct": 0.95,
+      "demand_score": 0.96,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_452",
+      "inventory_pct": 0.11,
+      "demand_score": 0.82,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_453",
+      "inventory_pct": 0.51,
+      "demand_score": 0.85,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_454",
+      "inventory_pct": 0.35,
+      "demand_score": 0.12,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_455",
+      "inventory_pct": 0.02,
+      "demand_score": 0.22,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_456",
+      "inventory_pct": 0.41,
+      "demand_score": 0.96,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_457",
+      "inventory_pct": 0.84,
+      "demand_score": 0.99,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_458",
+      "inventory_pct": 0.42,
+      "demand_score": 0.03,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_459",
+      "inventory_pct": 0.03,
+      "demand_score": 0.34,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_460",
+      "inventory_pct": 0.23,
+      "demand_score": 0.74,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_461",
+      "inventory_pct": 0.36,
+      "demand_score": 0.28,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_462",
+      "inventory_pct": 0.1,
+      "demand_score": 0.98,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_463",
+      "inventory_pct": 0.35,
+      "demand_score": 0.76,
+      "customer_segment": "loyalty",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_464",
+      "inventory_pct": 0.97,
+      "demand_score": 0.84,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_465",
+      "inventory_pct": 0.92,
+      "demand_score": 0.77,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_466",
+      "inventory_pct": 0.21,
+      "demand_score": 0.62,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_467",
+      "inventory_pct": 0.48,
+      "demand_score": 0.27,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_468",
+      "inventory_pct": 0.15,
+      "demand_score": 0.72,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_469",
+      "inventory_pct": 0.05,
+      "demand_score": 0.09,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_470",
+      "inventory_pct": 0.36,
+      "demand_score": 0.43,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_471",
+      "inventory_pct": 0.87,
+      "demand_score": 0.56,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_472",
+      "inventory_pct": 0.61,
+      "demand_score": 0.06,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_473",
+      "inventory_pct": 0.02,
+      "demand_score": 0.07,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_474",
+      "inventory_pct": 0.97,
+      "demand_score": 0.09,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_475",
+      "inventory_pct": 0.3,
+      "demand_score": 0.77,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_476",
+      "inventory_pct": 0.29,
+      "demand_score": 0.67,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_477",
+      "inventory_pct": 0.98,
+      "demand_score": 0.88,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_478",
+      "inventory_pct": 0.67,
+      "demand_score": 0.85,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_479",
+      "inventory_pct": 0.37,
+      "demand_score": 0.78,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_480",
+      "inventory_pct": 0.35,
+      "demand_score": 0.1,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_481",
+      "inventory_pct": 0.77,
+      "demand_score": 0.58,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_482",
+      "inventory_pct": 0.51,
+      "demand_score": 0.83,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_483",
+      "inventory_pct": 0.96,
+      "demand_score": 0.17,
+      "customer_segment": "loyalty",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    },
+    {
+      "id": "ec_484",
+      "inventory_pct": 0.73,
+      "demand_score": 0.8,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_485",
+      "inventory_pct": 0.39,
+      "demand_score": 0.85,
+      "customer_segment": "loyalty",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_486",
+      "inventory_pct": 0.59,
+      "demand_score": 0.07,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_487",
+      "inventory_pct": 0.21,
+      "demand_score": 0.85,
+      "customer_segment": "regular",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_488",
+      "inventory_pct": 0.14,
+      "demand_score": 0.73,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_489",
+      "inventory_pct": 0.81,
+      "demand_score": 0.71,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_490",
+      "inventory_pct": 0.2,
+      "demand_score": 0.3,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_491",
+      "inventory_pct": 0.2,
+      "demand_score": 0.98,
+      "customer_segment": "loyalty",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_492",
+      "inventory_pct": 0.05,
+      "demand_score": 0.58,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_493",
+      "inventory_pct": 0.56,
+      "demand_score": 0.97,
+      "customer_segment": "regular",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_494",
+      "inventory_pct": 0.76,
+      "demand_score": 0.36,
+      "customer_segment": "regular",
+      "mrp": 2999,
+      "cost_price": 1649,
+      "base_price": 2399
+    },
+    {
+      "id": "ec_495",
+      "inventory_pct": 0.41,
+      "demand_score": 0.22,
+      "customer_segment": "regular",
+      "mrp": 1499,
+      "cost_price": 824,
+      "base_price": 1199
+    },
+    {
+      "id": "ec_496",
+      "inventory_pct": 0.23,
+      "demand_score": 0.71,
+      "customer_segment": "loyalty",
+      "mrp": 499,
+      "cost_price": 274,
+      "base_price": 399
+    },
+    {
+      "id": "ec_497",
+      "inventory_pct": 0.5,
+      "demand_score": 0.25,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_498",
+      "inventory_pct": 0.92,
+      "demand_score": 0.63,
+      "customer_segment": "loyalty",
+      "mrp": 4999,
+      "cost_price": 2749,
+      "base_price": 3999
+    },
+    {
+      "id": "ec_499",
+      "inventory_pct": 0.97,
+      "demand_score": 0.77,
+      "customer_segment": "regular",
+      "mrp": 999,
+      "cost_price": 549,
+      "base_price": 799
+    }
+  ],
+  "ride_hailing": [
+    {
+      "id": "rh_0",
+      "demand_supply_ratio": 2.68,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_1",
+      "demand_supply_ratio": 1.87,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_2",
+      "demand_supply_ratio": 2.56,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_3",
+      "demand_supply_ratio": 1.9,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_4",
+      "demand_supply_ratio": 0.71,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_5",
+      "demand_supply_ratio": 3.9,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_6",
+      "demand_supply_ratio": 2.04,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_7",
+      "demand_supply_ratio": 3.34,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_8",
+      "demand_supply_ratio": 3.87,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_9",
+      "demand_supply_ratio": 3.68,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_10",
+      "demand_supply_ratio": 3.69,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_11",
+      "demand_supply_ratio": 3.47,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_12",
+      "demand_supply_ratio": 2.85,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_13",
+      "demand_supply_ratio": 2.58,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_14",
+      "demand_supply_ratio": 1.97,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_15",
+      "demand_supply_ratio": 1.46,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_16",
+      "demand_supply_ratio": 1.36,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_17",
+      "demand_supply_ratio": 1.49,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_18",
+      "demand_supply_ratio": 3.89,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_19",
+      "demand_supply_ratio": 3.72,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_20",
+      "demand_supply_ratio": 3.53,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_21",
+      "demand_supply_ratio": 2.98,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_22",
+      "demand_supply_ratio": 1.52,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_23",
+      "demand_supply_ratio": 3.94,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_24",
+      "demand_supply_ratio": 0.96,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_25",
+      "demand_supply_ratio": 3.93,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_26",
+      "demand_supply_ratio": 1.66,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_27",
+      "demand_supply_ratio": 2.22,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_28",
+      "demand_supply_ratio": 2.37,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_29",
+      "demand_supply_ratio": 2.0,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_30",
+      "demand_supply_ratio": 1.11,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_31",
+      "demand_supply_ratio": 2.59,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_32",
+      "demand_supply_ratio": 3.52,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_33",
+      "demand_supply_ratio": 2.3,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_34",
+      "demand_supply_ratio": 3.24,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_35",
+      "demand_supply_ratio": 1.54,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_36",
+      "demand_supply_ratio": 0.98,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_37",
+      "demand_supply_ratio": 0.74,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_38",
+      "demand_supply_ratio": 3.91,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_39",
+      "demand_supply_ratio": 3.74,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_40",
+      "demand_supply_ratio": 1.95,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_41",
+      "demand_supply_ratio": 0.55,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_42",
+      "demand_supply_ratio": 2.76,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_43",
+      "demand_supply_ratio": 0.89,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_44",
+      "demand_supply_ratio": 3.08,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_45",
+      "demand_supply_ratio": 2.52,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_46",
+      "demand_supply_ratio": 0.73,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_47",
+      "demand_supply_ratio": 2.52,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_48",
+      "demand_supply_ratio": 1.01,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_49",
+      "demand_supply_ratio": 2.18,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_50",
+      "demand_supply_ratio": 3.02,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_51",
+      "demand_supply_ratio": 2.78,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_52",
+      "demand_supply_ratio": 1.88,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_53",
+      "demand_supply_ratio": 0.88,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_54",
+      "demand_supply_ratio": 3.19,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_55",
+      "demand_supply_ratio": 1.24,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_56",
+      "demand_supply_ratio": 0.56,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_57",
+      "demand_supply_ratio": 1.9,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_58",
+      "demand_supply_ratio": 3.07,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_59",
+      "demand_supply_ratio": 1.86,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_60",
+      "demand_supply_ratio": 3.42,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_61",
+      "demand_supply_ratio": 2.36,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_62",
+      "demand_supply_ratio": 1.81,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_63",
+      "demand_supply_ratio": 1.91,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_64",
+      "demand_supply_ratio": 2.26,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_65",
+      "demand_supply_ratio": 0.58,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_66",
+      "demand_supply_ratio": 3.73,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_67",
+      "demand_supply_ratio": 2.83,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_68",
+      "demand_supply_ratio": 3.24,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_69",
+      "demand_supply_ratio": 1.02,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_70",
+      "demand_supply_ratio": 1.24,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_71",
+      "demand_supply_ratio": 0.52,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_72",
+      "demand_supply_ratio": 1.3,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_73",
+      "demand_supply_ratio": 1.31,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_74",
+      "demand_supply_ratio": 2.23,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_75",
+      "demand_supply_ratio": 0.53,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_76",
+      "demand_supply_ratio": 1.48,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_77",
+      "demand_supply_ratio": 3.42,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_78",
+      "demand_supply_ratio": 1.97,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_79",
+      "demand_supply_ratio": 1.94,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_80",
+      "demand_supply_ratio": 1.29,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_81",
+      "demand_supply_ratio": 0.97,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_82",
+      "demand_supply_ratio": 2.64,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_83",
+      "demand_supply_ratio": 3.36,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_84",
+      "demand_supply_ratio": 0.96,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_85",
+      "demand_supply_ratio": 1.68,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_86",
+      "demand_supply_ratio": 2.37,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_87",
+      "demand_supply_ratio": 1.26,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_88",
+      "demand_supply_ratio": 1.31,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_89",
+      "demand_supply_ratio": 1.12,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_90",
+      "demand_supply_ratio": 3.62,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_91",
+      "demand_supply_ratio": 1.76,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_92",
+      "demand_supply_ratio": 0.61,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_93",
+      "demand_supply_ratio": 3.22,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_94",
+      "demand_supply_ratio": 1.63,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_95",
+      "demand_supply_ratio": 0.61,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_96",
+      "demand_supply_ratio": 3.33,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_97",
+      "demand_supply_ratio": 3.3,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_98",
+      "demand_supply_ratio": 1.38,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_99",
+      "demand_supply_ratio": 1.1,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_100",
+      "demand_supply_ratio": 1.54,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_101",
+      "demand_supply_ratio": 2.0,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_102",
+      "demand_supply_ratio": 2.56,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_103",
+      "demand_supply_ratio": 0.5,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_104",
+      "demand_supply_ratio": 3.1,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_105",
+      "demand_supply_ratio": 1.21,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_106",
+      "demand_supply_ratio": 1.43,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_107",
+      "demand_supply_ratio": 0.73,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_108",
+      "demand_supply_ratio": 3.9,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_109",
+      "demand_supply_ratio": 3.67,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_110",
+      "demand_supply_ratio": 0.54,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_111",
+      "demand_supply_ratio": 3.22,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_112",
+      "demand_supply_ratio": 2.1,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_113",
+      "demand_supply_ratio": 2.69,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_114",
+      "demand_supply_ratio": 3.09,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_115",
+      "demand_supply_ratio": 2.34,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_116",
+      "demand_supply_ratio": 3.89,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_117",
+      "demand_supply_ratio": 2.18,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_118",
+      "demand_supply_ratio": 2.24,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_119",
+      "demand_supply_ratio": 2.04,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_120",
+      "demand_supply_ratio": 3.53,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_121",
+      "demand_supply_ratio": 1.83,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_122",
+      "demand_supply_ratio": 1.7,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_123",
+      "demand_supply_ratio": 2.46,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_124",
+      "demand_supply_ratio": 3.9,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_125",
+      "demand_supply_ratio": 3.35,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_126",
+      "demand_supply_ratio": 0.81,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_127",
+      "demand_supply_ratio": 1.84,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_128",
+      "demand_supply_ratio": 0.67,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_129",
+      "demand_supply_ratio": 2.5,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_130",
+      "demand_supply_ratio": 3.47,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_131",
+      "demand_supply_ratio": 3.49,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_132",
+      "demand_supply_ratio": 3.05,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_133",
+      "demand_supply_ratio": 1.22,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_134",
+      "demand_supply_ratio": 3.84,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_135",
+      "demand_supply_ratio": 1.56,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_136",
+      "demand_supply_ratio": 0.89,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_137",
+      "demand_supply_ratio": 1.97,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_138",
+      "demand_supply_ratio": 2.53,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_139",
+      "demand_supply_ratio": 3.53,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_140",
+      "demand_supply_ratio": 3.91,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_141",
+      "demand_supply_ratio": 3.5,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_142",
+      "demand_supply_ratio": 3.6,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_143",
+      "demand_supply_ratio": 2.9,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_144",
+      "demand_supply_ratio": 2.93,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_145",
+      "demand_supply_ratio": 1.1,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_146",
+      "demand_supply_ratio": 2.6,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_147",
+      "demand_supply_ratio": 1.03,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_148",
+      "demand_supply_ratio": 1.79,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_149",
+      "demand_supply_ratio": 2.67,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_150",
+      "demand_supply_ratio": 3.59,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_151",
+      "demand_supply_ratio": 2.9,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_152",
+      "demand_supply_ratio": 1.87,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_153",
+      "demand_supply_ratio": 2.73,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_154",
+      "demand_supply_ratio": 3.93,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_155",
+      "demand_supply_ratio": 0.69,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_156",
+      "demand_supply_ratio": 2.07,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_157",
+      "demand_supply_ratio": 2.52,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_158",
+      "demand_supply_ratio": 1.41,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_159",
+      "demand_supply_ratio": 2.05,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_160",
+      "demand_supply_ratio": 1.68,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_161",
+      "demand_supply_ratio": 0.83,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_162",
+      "demand_supply_ratio": 2.24,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_163",
+      "demand_supply_ratio": 0.58,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_164",
+      "demand_supply_ratio": 1.27,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_165",
+      "demand_supply_ratio": 2.67,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_166",
+      "demand_supply_ratio": 2.91,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_167",
+      "demand_supply_ratio": 0.98,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_168",
+      "demand_supply_ratio": 3.21,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_169",
+      "demand_supply_ratio": 0.61,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_170",
+      "demand_supply_ratio": 0.76,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_171",
+      "demand_supply_ratio": 1.03,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_172",
+      "demand_supply_ratio": 1.04,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_173",
+      "demand_supply_ratio": 1.17,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_174",
+      "demand_supply_ratio": 1.58,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_175",
+      "demand_supply_ratio": 1.09,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_176",
+      "demand_supply_ratio": 2.76,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_177",
+      "demand_supply_ratio": 2.62,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_178",
+      "demand_supply_ratio": 0.51,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_179",
+      "demand_supply_ratio": 1.65,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_180",
+      "demand_supply_ratio": 2.05,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_181",
+      "demand_supply_ratio": 3.65,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_182",
+      "demand_supply_ratio": 3.55,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_183",
+      "demand_supply_ratio": 3.35,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_184",
+      "demand_supply_ratio": 1.64,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_185",
+      "demand_supply_ratio": 1.89,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_186",
+      "demand_supply_ratio": 2.33,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_187",
+      "demand_supply_ratio": 1.85,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_188",
+      "demand_supply_ratio": 2.0,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_189",
+      "demand_supply_ratio": 0.54,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_190",
+      "demand_supply_ratio": 0.76,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_191",
+      "demand_supply_ratio": 1.4,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_192",
+      "demand_supply_ratio": 2.16,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_193",
+      "demand_supply_ratio": 3.03,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_194",
+      "demand_supply_ratio": 0.81,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_195",
+      "demand_supply_ratio": 0.62,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_196",
+      "demand_supply_ratio": 3.93,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_197",
+      "demand_supply_ratio": 2.5,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_198",
+      "demand_supply_ratio": 1.43,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_199",
+      "demand_supply_ratio": 0.9,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_200",
+      "demand_supply_ratio": 3.38,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_201",
+      "demand_supply_ratio": 1.51,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_202",
+      "demand_supply_ratio": 0.79,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_203",
+      "demand_supply_ratio": 0.97,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_204",
+      "demand_supply_ratio": 3.62,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_205",
+      "demand_supply_ratio": 2.42,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_206",
+      "demand_supply_ratio": 1.14,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_207",
+      "demand_supply_ratio": 1.61,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_208",
+      "demand_supply_ratio": 0.83,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_209",
+      "demand_supply_ratio": 2.0,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_210",
+      "demand_supply_ratio": 2.13,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_211",
+      "demand_supply_ratio": 1.92,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_212",
+      "demand_supply_ratio": 3.75,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_213",
+      "demand_supply_ratio": 3.57,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_214",
+      "demand_supply_ratio": 2.37,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_215",
+      "demand_supply_ratio": 3.79,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_216",
+      "demand_supply_ratio": 1.04,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_217",
+      "demand_supply_ratio": 3.94,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_218",
+      "demand_supply_ratio": 3.34,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_219",
+      "demand_supply_ratio": 2.08,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_220",
+      "demand_supply_ratio": 3.24,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_221",
+      "demand_supply_ratio": 3.26,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_222",
+      "demand_supply_ratio": 3.95,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_223",
+      "demand_supply_ratio": 3.31,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_224",
+      "demand_supply_ratio": 3.86,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_225",
+      "demand_supply_ratio": 3.4,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_226",
+      "demand_supply_ratio": 0.62,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_227",
+      "demand_supply_ratio": 3.96,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_228",
+      "demand_supply_ratio": 1.59,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_229",
+      "demand_supply_ratio": 2.08,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_230",
+      "demand_supply_ratio": 2.14,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_231",
+      "demand_supply_ratio": 2.64,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_232",
+      "demand_supply_ratio": 1.82,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_233",
+      "demand_supply_ratio": 2.53,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_234",
+      "demand_supply_ratio": 2.55,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_235",
+      "demand_supply_ratio": 2.86,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_236",
+      "demand_supply_ratio": 3.01,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_237",
+      "demand_supply_ratio": 1.45,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_238",
+      "demand_supply_ratio": 0.7,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_239",
+      "demand_supply_ratio": 0.68,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_240",
+      "demand_supply_ratio": 0.63,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_241",
+      "demand_supply_ratio": 1.41,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_242",
+      "demand_supply_ratio": 2.89,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_243",
+      "demand_supply_ratio": 2.09,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_244",
+      "demand_supply_ratio": 3.38,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_245",
+      "demand_supply_ratio": 2.36,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_246",
+      "demand_supply_ratio": 3.5,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_247",
+      "demand_supply_ratio": 0.68,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_248",
+      "demand_supply_ratio": 0.62,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_249",
+      "demand_supply_ratio": 2.24,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_250",
+      "demand_supply_ratio": 0.81,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_251",
+      "demand_supply_ratio": 3.05,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_252",
+      "demand_supply_ratio": 1.55,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_253",
+      "demand_supply_ratio": 0.95,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_254",
+      "demand_supply_ratio": 2.6,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_255",
+      "demand_supply_ratio": 1.52,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_256",
+      "demand_supply_ratio": 1.66,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_257",
+      "demand_supply_ratio": 1.68,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_258",
+      "demand_supply_ratio": 2.83,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_259",
+      "demand_supply_ratio": 3.57,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_260",
+      "demand_supply_ratio": 1.65,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_261",
+      "demand_supply_ratio": 1.78,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_262",
+      "demand_supply_ratio": 1.8,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_263",
+      "demand_supply_ratio": 2.78,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_264",
+      "demand_supply_ratio": 0.95,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_265",
+      "demand_supply_ratio": 3.09,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_266",
+      "demand_supply_ratio": 2.34,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_267",
+      "demand_supply_ratio": 2.1,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_268",
+      "demand_supply_ratio": 3.38,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_269",
+      "demand_supply_ratio": 3.83,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_270",
+      "demand_supply_ratio": 2.56,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_271",
+      "demand_supply_ratio": 1.05,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_272",
+      "demand_supply_ratio": 3.08,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_273",
+      "demand_supply_ratio": 1.45,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_274",
+      "demand_supply_ratio": 3.24,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_275",
+      "demand_supply_ratio": 2.35,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_276",
+      "demand_supply_ratio": 1.2,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_277",
+      "demand_supply_ratio": 2.68,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_278",
+      "demand_supply_ratio": 0.57,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_279",
+      "demand_supply_ratio": 2.65,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_280",
+      "demand_supply_ratio": 1.82,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_281",
+      "demand_supply_ratio": 2.5,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_282",
+      "demand_supply_ratio": 0.51,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_283",
+      "demand_supply_ratio": 2.45,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_284",
+      "demand_supply_ratio": 0.97,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_285",
+      "demand_supply_ratio": 0.83,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_286",
+      "demand_supply_ratio": 0.87,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_287",
+      "demand_supply_ratio": 2.62,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_288",
+      "demand_supply_ratio": 2.37,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_289",
+      "demand_supply_ratio": 2.36,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_290",
+      "demand_supply_ratio": 0.92,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_291",
+      "demand_supply_ratio": 2.21,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_292",
+      "demand_supply_ratio": 3.31,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_293",
+      "demand_supply_ratio": 2.82,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_294",
+      "demand_supply_ratio": 0.84,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_295",
+      "demand_supply_ratio": 2.8,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_296",
+      "demand_supply_ratio": 0.59,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_297",
+      "demand_supply_ratio": 3.52,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_298",
+      "demand_supply_ratio": 1.08,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_299",
+      "demand_supply_ratio": 1.78,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_300",
+      "demand_supply_ratio": 2.75,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_301",
+      "demand_supply_ratio": 2.78,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_302",
+      "demand_supply_ratio": 3.67,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_303",
+      "demand_supply_ratio": 1.49,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_304",
+      "demand_supply_ratio": 0.54,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_305",
+      "demand_supply_ratio": 1.48,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_306",
+      "demand_supply_ratio": 2.99,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_307",
+      "demand_supply_ratio": 0.51,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_308",
+      "demand_supply_ratio": 2.5,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_309",
+      "demand_supply_ratio": 1.14,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_310",
+      "demand_supply_ratio": 0.53,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_311",
+      "demand_supply_ratio": 1.96,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_312",
+      "demand_supply_ratio": 2.3,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_313",
+      "demand_supply_ratio": 0.66,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_314",
+      "demand_supply_ratio": 2.03,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_315",
+      "demand_supply_ratio": 2.52,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_316",
+      "demand_supply_ratio": 1.32,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_317",
+      "demand_supply_ratio": 1.91,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_318",
+      "demand_supply_ratio": 0.6,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_319",
+      "demand_supply_ratio": 1.68,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_320",
+      "demand_supply_ratio": 0.74,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_321",
+      "demand_supply_ratio": 1.71,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_322",
+      "demand_supply_ratio": 0.89,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_323",
+      "demand_supply_ratio": 0.88,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_324",
+      "demand_supply_ratio": 1.24,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_325",
+      "demand_supply_ratio": 1.74,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_326",
+      "demand_supply_ratio": 1.48,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_327",
+      "demand_supply_ratio": 2.12,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_328",
+      "demand_supply_ratio": 1.95,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_329",
+      "demand_supply_ratio": 3.09,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_330",
+      "demand_supply_ratio": 1.27,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_331",
+      "demand_supply_ratio": 3.49,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_332",
+      "demand_supply_ratio": 3.93,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_333",
+      "demand_supply_ratio": 0.92,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_334",
+      "demand_supply_ratio": 2.31,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_335",
+      "demand_supply_ratio": 2.46,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_336",
+      "demand_supply_ratio": 0.95,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_337",
+      "demand_supply_ratio": 1.37,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_338",
+      "demand_supply_ratio": 3.75,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_339",
+      "demand_supply_ratio": 1.13,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_340",
+      "demand_supply_ratio": 2.63,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_341",
+      "demand_supply_ratio": 2.51,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_342",
+      "demand_supply_ratio": 1.88,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_343",
+      "demand_supply_ratio": 3.03,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_344",
+      "demand_supply_ratio": 3.32,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_345",
+      "demand_supply_ratio": 0.85,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_346",
+      "demand_supply_ratio": 1.39,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_347",
+      "demand_supply_ratio": 2.08,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_348",
+      "demand_supply_ratio": 2.95,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_349",
+      "demand_supply_ratio": 2.02,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_350",
+      "demand_supply_ratio": 2.06,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_351",
+      "demand_supply_ratio": 2.82,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_352",
+      "demand_supply_ratio": 3.83,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_353",
+      "demand_supply_ratio": 3.5,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_354",
+      "demand_supply_ratio": 0.91,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_355",
+      "demand_supply_ratio": 3.85,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_356",
+      "demand_supply_ratio": 3.36,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_357",
+      "demand_supply_ratio": 2.27,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_358",
+      "demand_supply_ratio": 3.96,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_359",
+      "demand_supply_ratio": 2.6,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_360",
+      "demand_supply_ratio": 3.82,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_361",
+      "demand_supply_ratio": 2.01,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_362",
+      "demand_supply_ratio": 1.42,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_363",
+      "demand_supply_ratio": 2.51,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_364",
+      "demand_supply_ratio": 3.95,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_365",
+      "demand_supply_ratio": 0.61,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_366",
+      "demand_supply_ratio": 1.82,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_367",
+      "demand_supply_ratio": 1.47,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_368",
+      "demand_supply_ratio": 2.32,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_369",
+      "demand_supply_ratio": 1.06,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_370",
+      "demand_supply_ratio": 0.57,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_371",
+      "demand_supply_ratio": 2.39,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_372",
+      "demand_supply_ratio": 0.66,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_373",
+      "demand_supply_ratio": 3.16,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_374",
+      "demand_supply_ratio": 0.86,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_375",
+      "demand_supply_ratio": 1.12,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_376",
+      "demand_supply_ratio": 3.28,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_377",
+      "demand_supply_ratio": 3.96,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_378",
+      "demand_supply_ratio": 2.79,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_379",
+      "demand_supply_ratio": 1.39,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_380",
+      "demand_supply_ratio": 1.12,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_381",
+      "demand_supply_ratio": 2.44,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_382",
+      "demand_supply_ratio": 3.16,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_383",
+      "demand_supply_ratio": 1.21,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_384",
+      "demand_supply_ratio": 2.12,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_385",
+      "demand_supply_ratio": 1.79,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_386",
+      "demand_supply_ratio": 3.0,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_387",
+      "demand_supply_ratio": 0.86,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_388",
+      "demand_supply_ratio": 2.21,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_389",
+      "demand_supply_ratio": 2.03,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_390",
+      "demand_supply_ratio": 3.1,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_391",
+      "demand_supply_ratio": 3.63,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_392",
+      "demand_supply_ratio": 3.91,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_393",
+      "demand_supply_ratio": 1.51,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_394",
+      "demand_supply_ratio": 2.45,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_395",
+      "demand_supply_ratio": 1.73,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_396",
+      "demand_supply_ratio": 3.1,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_397",
+      "demand_supply_ratio": 1.98,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_398",
+      "demand_supply_ratio": 1.59,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_399",
+      "demand_supply_ratio": 3.16,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_400",
+      "demand_supply_ratio": 0.77,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_401",
+      "demand_supply_ratio": 2.39,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_402",
+      "demand_supply_ratio": 1.55,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_403",
+      "demand_supply_ratio": 1.65,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_404",
+      "demand_supply_ratio": 3.49,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_405",
+      "demand_supply_ratio": 3.05,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_406",
+      "demand_supply_ratio": 2.61,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_407",
+      "demand_supply_ratio": 3.72,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_408",
+      "demand_supply_ratio": 2.58,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_409",
+      "demand_supply_ratio": 1.24,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_410",
+      "demand_supply_ratio": 3.14,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_411",
+      "demand_supply_ratio": 2.04,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_412",
+      "demand_supply_ratio": 3.92,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_413",
+      "demand_supply_ratio": 1.02,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_414",
+      "demand_supply_ratio": 2.62,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_415",
+      "demand_supply_ratio": 3.21,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_416",
+      "demand_supply_ratio": 1.0,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_417",
+      "demand_supply_ratio": 2.26,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_418",
+      "demand_supply_ratio": 3.48,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_419",
+      "demand_supply_ratio": 3.71,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_420",
+      "demand_supply_ratio": 3.53,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_421",
+      "demand_supply_ratio": 3.85,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_422",
+      "demand_supply_ratio": 3.1,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_423",
+      "demand_supply_ratio": 2.27,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_424",
+      "demand_supply_ratio": 2.28,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_425",
+      "demand_supply_ratio": 0.68,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_426",
+      "demand_supply_ratio": 2.17,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_427",
+      "demand_supply_ratio": 0.52,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_428",
+      "demand_supply_ratio": 2.42,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_429",
+      "demand_supply_ratio": 0.95,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_430",
+      "demand_supply_ratio": 3.46,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_431",
+      "demand_supply_ratio": 2.47,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_432",
+      "demand_supply_ratio": 2.36,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_433",
+      "demand_supply_ratio": 2.41,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_434",
+      "demand_supply_ratio": 1.48,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_435",
+      "demand_supply_ratio": 1.81,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_436",
+      "demand_supply_ratio": 1.37,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_437",
+      "demand_supply_ratio": 2.77,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_438",
+      "demand_supply_ratio": 1.95,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_439",
+      "demand_supply_ratio": 1.49,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_440",
+      "demand_supply_ratio": 0.97,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_441",
+      "demand_supply_ratio": 3.01,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_442",
+      "demand_supply_ratio": 1.18,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_443",
+      "demand_supply_ratio": 3.89,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_444",
+      "demand_supply_ratio": 1.99,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_445",
+      "demand_supply_ratio": 1.75,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_446",
+      "demand_supply_ratio": 2.75,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_447",
+      "demand_supply_ratio": 2.82,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_448",
+      "demand_supply_ratio": 2.25,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_449",
+      "demand_supply_ratio": 1.43,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_450",
+      "demand_supply_ratio": 0.61,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_451",
+      "demand_supply_ratio": 3.5,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_452",
+      "demand_supply_ratio": 2.19,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_453",
+      "demand_supply_ratio": 2.1,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_454",
+      "demand_supply_ratio": 3.51,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_455",
+      "demand_supply_ratio": 1.85,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_456",
+      "demand_supply_ratio": 3.03,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_457",
+      "demand_supply_ratio": 1.11,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_458",
+      "demand_supply_ratio": 1.69,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_459",
+      "demand_supply_ratio": 1.4,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_460",
+      "demand_supply_ratio": 0.81,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_461",
+      "demand_supply_ratio": 1.72,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_462",
+      "demand_supply_ratio": 2.13,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_463",
+      "demand_supply_ratio": 0.99,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_464",
+      "demand_supply_ratio": 0.64,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_465",
+      "demand_supply_ratio": 3.0,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_466",
+      "demand_supply_ratio": 3.2,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_467",
+      "demand_supply_ratio": 3.97,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_468",
+      "demand_supply_ratio": 1.34,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_469",
+      "demand_supply_ratio": 3.38,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_470",
+      "demand_supply_ratio": 1.78,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_471",
+      "demand_supply_ratio": 3.22,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_472",
+      "demand_supply_ratio": 1.5,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_473",
+      "demand_supply_ratio": 3.96,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_474",
+      "demand_supply_ratio": 2.98,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_475",
+      "demand_supply_ratio": 1.75,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_476",
+      "demand_supply_ratio": 0.62,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_477",
+      "demand_supply_ratio": 3.86,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_478",
+      "demand_supply_ratio": 1.22,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_479",
+      "demand_supply_ratio": 2.53,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_480",
+      "demand_supply_ratio": 3.77,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_481",
+      "demand_supply_ratio": 3.7,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_482",
+      "demand_supply_ratio": 1.9,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_483",
+      "demand_supply_ratio": 2.44,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_484",
+      "demand_supply_ratio": 0.97,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_485",
+      "demand_supply_ratio": 1.38,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_486",
+      "demand_supply_ratio": 2.54,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_487",
+      "demand_supply_ratio": 0.79,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_488",
+      "demand_supply_ratio": 3.73,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_489",
+      "demand_supply_ratio": 2.59,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_490",
+      "demand_supply_ratio": 2.95,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_491",
+      "demand_supply_ratio": 3.49,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 90
+    },
+    {
+      "id": "rh_492",
+      "demand_supply_ratio": 3.42,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_493",
+      "demand_supply_ratio": 1.54,
+      "is_raining": true,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_494",
+      "demand_supply_ratio": 2.45,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    },
+    {
+      "id": "rh_495",
+      "demand_supply_ratio": 3.91,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 60
+    },
+    {
+      "id": "rh_496",
+      "demand_supply_ratio": 3.47,
+      "is_raining": true,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_497",
+      "demand_supply_ratio": 1.81,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_498",
+      "demand_supply_ratio": 0.73,
+      "is_raining": false,
+      "is_rush_hour": true,
+      "base_fare": 180
+    },
+    {
+      "id": "rh_499",
+      "demand_supply_ratio": 1.63,
+      "is_raining": false,
+      "is_rush_hour": false,
+      "base_fare": 120
+    }
+  ]
+}
