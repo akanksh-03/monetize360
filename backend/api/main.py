@@ -10,7 +10,8 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from pricing_service import get_price, simulate, add_rule, get_domain_files, get_audit, RULES_DIR
+from pricing_service import (get_price, simulate, add_rule, get_domain_files,
+                             get_audit, list_versions, rollback, RULES_DIR)
 from engine import load_ruleset
 
 app = FastAPI(title="Monetize360 Pricing API")
@@ -80,6 +81,22 @@ def get_rules(domain: str):
 def create_rule(domain: str, rule: RuleIn):
     try:
         return add_rule(domain, rule.dict(exclude_none=True))
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+
+@app.get("/rules/{domain}/versions")
+def rule_versions(domain: str):
+    try:
+        return list_versions(domain)
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+
+
+@app.post("/rules/{domain}/rollback/{version}")
+def rule_rollback(domain: str, version: int):
+    try:
+        return rollback(domain, version)
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
 

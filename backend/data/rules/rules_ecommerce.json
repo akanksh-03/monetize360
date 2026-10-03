@@ -61,21 +61,6 @@
         "value": 5
       },
       "priority": 3
-    },
-    {
-      "id": "ec_005",
-      "conditions": [
-        {
-          "field": "demand_score",
-          "op": "<",
-          "value": 0.8
-        }
-      ],
-      "action": {
-        "type": "percent_decrease",
-        "value": 10
-      },
-      "priority": 3
     }
   ],
   "constraints": {

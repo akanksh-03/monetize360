@@ -4,3 +4,4 @@ __pycache__/
 .pytest_cache/
 .env
 backend/data/audit_log.jsonl
+backend/data/versions/
