@@ -1,19 +1,35 @@
 import json
 import random
 import os
+import math
 
 def gen_ecommerce(n=500):
     rows = []
     for i in range(n):
         mrp = random.choice([499, 999, 1499, 2999, 4999])
-        base_price = round(mrp * random.uniform(0.6, 0.95))
+        base_price = round(mrp * random.uniform(0.55, 0.95))
         discount_ratio = 1 - (base_price / mrp)
-        demand_score = max(0, min(1, 0.3 + discount_ratio * 1.2 + random.uniform(-0.15, 0.15)))
+        customer_segment = random.choice(["regular", "regular", "loyalty"])
+        is_loyalty = 1 if customer_segment == "loyalty" else 0
+        inventory_pct = round(random.uniform(0, 1), 2)
+
+        # Deliberately NOT a linear function — diminishing-returns curve on
+        # discount (sqrt) plus a loyalty×discount interaction term. A plain
+        # linear model structurally can't capture this well; tree-based
+        # models can. This is what makes the model comparison meaningful
+        # rather than decorative.
+        base_effect = 0.22 + 0.85 * math.sqrt(max(discount_ratio, 0))
+        loyalty_interaction = 0.18 * discount_ratio * is_loyalty
+        overstock_drag = -0.06 * max(inventory_pct - 0.7, 0)
+        noise = random.uniform(-0.12, 0.12)
+
+        demand_score = max(0, min(1, base_effect + loyalty_interaction + overstock_drag + noise))
+
         rows.append({
             "id": f"ec_{i}",
-            "inventory_pct": round(random.uniform(0, 1), 2),
+            "inventory_pct": inventory_pct,
             "demand_score": round(demand_score, 2),
-            "customer_segment": random.choice(["regular", "regular", "loyalty"]),
+            "customer_segment": customer_segment,
             "mrp": mrp,
             "cost_price": round(mrp * 0.55),
             "base_price": base_price

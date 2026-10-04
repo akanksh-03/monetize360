@@ -1,0 +1,29 @@
+{
+  "selected_model": "LinearRegression",
+  "feature_names": [
+    "inventory_pct",
+    "discount_ratio",
+    "is_loyalty"
+  ],
+  "cv_r2_mean": 0.6826,
+  "cv_r2_std": 0.0364,
+  "test_r2": 0.736,
+  "test_mae": 0.0573,
+  "all_models": {
+    "LinearRegression": {
+      "cv_r2_mean": 0.6826,
+      "test_r2": 0.736,
+      "test_mae": 0.0573
+    },
+    "PolynomialRidge": {
+      "cv_r2_mean": 0.6646,
+      "test_r2": 0.7172,
+      "test_mae": 0.0587
+    },
+    "NeuralNet": {
+      "cv_r2_mean": 0.5696,
+      "test_r2": 0.6744,
+      "test_mae": 0.0633
+    }
+  }
+}

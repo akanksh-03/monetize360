@@ -15,6 +15,12 @@ try:
 except Exception:
     _ML_AVAILABLE = False
 
+try:
+    from ml.detect_anomaly import detect_anomaly
+    _ANOMALY_AVAILABLE = True
+except Exception:
+    _ANOMALY_AVAILABLE = False
+
 RULES_DIR = os.path.join(BACKEND_DIR, "data", "rules")
 VERSIONS_DIR = os.path.join(RULES_DIR, "_versions")
 AUDIT_LOG_PATH = os.path.join(BACKEND_DIR, "data", "audit_log.json")
@@ -51,11 +57,23 @@ def _maybe_predict_demand(domain: str, context: dict):
     return context, predicted
 
 
+def _maybe_detect_anomaly(domain: str, context: dict):
+    if domain == "ecommerce" and _ANOMALY_AVAILABLE:
+        try:
+            return detect_anomaly(context)
+        except Exception:
+            return None
+    return None
+
+
 def get_price(domain: str, context: dict) -> dict:
     ruleset = load_ruleset(_resolve_path(domain))
     context, predicted = _maybe_predict_demand(domain, context)
     result = calculate_price(ruleset, context)
     result["predicted_fields"] = predicted
+    anomaly = _maybe_detect_anomaly(domain, context)
+    if anomaly is not None:
+        result["anomaly"] = anomaly
     _log_audit(domain, context, result)
     return result
 
@@ -67,8 +85,12 @@ def simulate(domain: str, contexts: list) -> list:
         ctx, predicted = _maybe_predict_demand(domain, ctx)
         result = calculate_price(ruleset, ctx)
         result["predicted_fields"] = predicted
+        anomaly = _maybe_detect_anomaly(domain, ctx)
+        if anomaly is not None:
+            result["anomaly"] = anomaly
         results.append(result)
     return results
+
 
 # ---------- versioning ----------
 
