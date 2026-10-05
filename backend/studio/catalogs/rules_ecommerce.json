@@ -1,0 +1,160 @@
+{
+  "domain": "ecommerce",
+  "base_price_field": "base_price",
+  "rules": [
+    {
+      "id": "ec_001",
+      "conditions": [
+        {
+          "field": "inventory_pct",
+          "op": "<",
+          "value": 0.2
+        }
+      ],
+      "action": {
+        "type": "percent_increase",
+        "value": 8
+      },
+      "priority": 1
+    },
+    {
+      "id": "ec_002",
+      "conditions": [
+        {
+          "field": "inventory_pct",
+          "op": ">",
+          "value": 0.8
+        }
+      ],
+      "action": {
+        "type": "percent_decrease",
+        "value": 12
+      },
+      "priority": 1
+    },
+    {
+      "id": "ec_003",
+      "conditions": [
+        {
+          "field": "demand_score",
+          "op": ">",
+          "value": 0.7
+        }
+      ],
+      "action": {
+        "type": "percent_increase",
+        "value": 6
+      },
+      "priority": 2
+    },
+    {
+      "id": "ec_004",
+      "conditions": [
+        {
+          "field": "customer_segment",
+          "op": "==",
+          "value": "loyalty"
+        }
+      ],
+      "action": {
+        "type": "percent_decrease",
+        "value": 5
+      },
+      "priority": 3
+    }
+  ],
+  "constraints": {
+    "max_price_field": "mrp",
+    "min_price_multiplier_of_cost": 1.05
+  },
+  "studio": {
+    "label": "E-commerce",
+    "currency": "INR",
+    "timezone": "Asia/Kolkata",
+    "description": "Inventory, demand and loyalty pricing with a configured retail ceiling and cost floor.",
+    "demand_adapter": "portable_ecommerce",
+    "fields": {
+      "base_price": {
+        "label": "Base price",
+        "type": "number",
+        "default": 800,
+        "min": 0,
+        "required": true,
+        "unit": "INR"
+      },
+      "inventory_pct": {
+        "label": "Inventory level",
+        "type": "number",
+        "default": 0.15,
+        "min": 0,
+        "max": 1,
+        "step": 0.01,
+        "required": true
+      },
+      "demand_score": {
+        "label": "Demand score",
+        "type": "number",
+        "default": 0.3,
+        "min": 0,
+        "max": 1,
+        "step": 0.01,
+        "required": true
+      },
+      "customer_segment": {
+        "label": "Customer segment",
+        "type": "string",
+        "default": "regular",
+        "options": [
+          "regular",
+          "loyalty"
+        ],
+        "required": true
+      },
+      "mrp": {
+        "label": "Maximum retail price",
+        "type": "number",
+        "default": 1000,
+        "min": 0,
+        "required": true,
+        "unit": "INR"
+      },
+      "cost_price": {
+        "label": "Cost price",
+        "type": "number",
+        "default": 550,
+        "min": 0,
+        "required": true,
+        "unit": "INR"
+      },
+      "traffic_index": {
+        "label": "Traffic index",
+        "type": "number",
+        "default": 0.65,
+        "min": 0,
+        "max": 1,
+        "step": 0.01
+      },
+      "promotion": {
+        "label": "Promotion active",
+        "type": "boolean",
+        "default": false
+      },
+      "competitor_price_ratio": {
+        "label": "Competitor / own price",
+        "type": "number",
+        "default": 1,
+        "min": 0.1,
+        "max": 5,
+        "step": 0.01
+      },
+      "hour": {
+        "label": "Local hour",
+        "type": "number",
+        "default": 17,
+        "min": 0,
+        "max": 23,
+        "step": 1
+      }
+    }
+  }
+}

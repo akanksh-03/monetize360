@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Monetize360 · Pricing Studio</title>
+  <link rel="stylesheet" href="./studio.css">
+</head>
+<body>
+<aside class="sidebar">
+  <a class="brand" href="./"><span class="logo">M</span><span>Monetize<span class="accent">360</span><small>PRICING STUDIO</small></span></a>
+  <div class="nav-label">WORKSPACE</div>
+  <nav aria-label="Workspace">
+    <button class="nav active" data-page="simulator"><span>◈</span> Price simulator</button>
+    <button class="nav" data-page="strategy"><span>⌘</span> Strategy lab</button>
+    <button class="nav" data-page="insights"><span>▥</span> Decision analytics</button>
+    <button class="nav" data-page="history"><span>↶</span> Version history</button>
+    <button class="nav" data-page="models"><span>◇</span> Model evidence</button>
+  </nav>
+  <div class="side-bottom"><span class="live-dot"></span><span id="connection">Connecting</span><p>Deterministic decisions.<br>Evidence you can inspect.</p><a href="/docs" target="_blank" rel="noopener">API documentation ↗</a></div>
+</aside>
+<div class="workspace">
+  <header class="topbar"><div class="breadcrumb">Workspace <span>/</span> <b id="pageLabel">Price simulator</b></div><div class="top-actions"><span id="accessBadge" class="badge">Viewer</span><button id="unlockBtn" class="button quiet">Unlock editing</button></div></header>
+  <main>
+    <div class="page-heading"><div><div class="eyebrow">UNIVERSAL DYNAMIC PRICING</div><h1 id="pageTitle">Every price, explained.</h1><p id="pageSubtitle">Bring context, apply your strategy, and inspect the decision.</p></div><div class="domain-picker"><label for="domainSelect">Active industry</label><select id="domainSelect" aria-label="Active industry"></select></div></div>
+    <div id="notice" class="notice" hidden role="status"></div>
+    <div class="summary-strip"><div><span class="metric-label">ENGINE</span><strong><i class="live-dot"></i> Deterministic</strong></div><div><span class="metric-label">CONFIGURED DOMAINS</span><strong id="domainCount">—</strong></div><div><span class="metric-label">ACTIVE RULES</span><strong id="ruleCount">—</strong></div><div><span class="metric-label">CONTEXT MODE</span><strong id="contextMode">Manual scenario</strong></div></div>
+
+    <section id="page-simulator" class="page">
+      <div class="two-column">
+        <div class="panel"><div class="panel-head"><div><h2>Build a scenario</h2><p id="domainDescription">Use the configured attributes below.</p></div><span class="step">01</span></div>
+          <form id="priceForm"><div id="scenarioFields" class="field-grid"></div>
+            <div class="context-options">
+              <div id="weatherOption" hidden><label class="switch-row"><input id="useWeather" type="checkbox"><span><b>Use live weather</b><small>Open-Meteo · current weather model data</small></span><span class="badge green">LIVE</span></label>
+                <div id="locationFields" class="field-grid compact" hidden><label>Latitude<input id="latitude" type="number" step="any" value="15.3647" min="-90" max="90"></label><label>Longitude<input id="longitude" type="number" step="any" value="75.1240" min="-180" max="180"></label></div></div>
+              <div id="mlOption" hidden><label class="switch-row"><input id="useML" type="checkbox"><span><b>Predict demand score</b><small id="mlModeLabel">Portable NumPy model · synthetic training data</small></span><span class="badge lavender">ML</span></label></div>
+            </div>
+            <details class="advanced"><summary>Evaluation date & raw context</summary><label>Evaluation date (optional)<input id="evaluationDate" type="date"></label><label class="switch-row"><input id="useRaw" type="checkbox"><span>Use JSON instead of the form</span></label><textarea id="rawContext" rows="8" spellcheck="false" aria-label="Raw context JSON"></textarea></details>
+            <div class="form-footer"><button id="resetScenario" type="button" class="button quiet">Reset inputs</button><button id="calculateBtn" class="button primary" type="submit">Calculate price <span>→</span></button></div>
+          </form>
+        </div>
+        <div class="panel decision-panel" id="decisionPanel"><div class="empty-state"><div class="empty-icon">◈</div><h2>A price with a paper trail.</h2><p>Calculate a scenario to see exactly which rules applied, how the price changed, and the evidence behind it.</p><div class="empty-steps"><span>Context</span><span>Rules</span><span>Explanation</span></div></div></div>
+      </div>
+    </section>
+
+    <section id="page-strategy" class="page" hidden>
+      <div class="panel"><div class="panel-head"><div><h2>Current pricing rules</h2><p>Lower priorities run first. Conditions use AND. Changes are drafted before activation.</p></div><button class="button quiet" id="importBtn">Import domain</button></div><div class="table-scroll"><table><thead><tr><th>RULE / CONDITION</th><th>ADJUSTMENT</th><th>PRIORITY</th><th></th></tr></thead><tbody id="rulesTable"></tbody></table></div></div>
+      <div class="two-column equal">
+        <div class="panel"><div class="panel-head"><div><h2>Design a rule</h2><p>Prepare a candidate without changing the active strategy.</p></div><span class="step">02</span></div>
+          <form id="ruleForm"><div class="field-grid"><label>Rule ID<input id="ruleId" required maxlength="100" placeholder="weekend_offer"></label><label>Priority<input id="rulePriority" type="number" min="0" max="100000" value="4" required></label></div>
+          <label>Description<input id="ruleDescription" maxlength="200" placeholder="Describe the business reason"></label>
+          <div id="conditions"></div><button type="button" class="button quiet small" id="addCondition">+ Add AND condition</button>
+          <div class="field-grid"><label>Adjustment<select id="actionType"><option value="percent_increase">Increase by percentage</option><option value="percent_decrease">Decrease by percentage</option><option value="flat_add">Add fixed amount</option><option value="flat_set">Set exact price</option></select></label><label>Value<input id="actionValue" type="number" step="any" required value="5"></label><label>Effective from<input id="effectiveFrom" type="date"></label><label>Effective to<input id="effectiveTo" type="date"></label></div>
+          <button class="button primary full" type="submit">Add to candidate strategy</button></form>
+        </div>
+        <div class="panel"><div class="panel-head"><div><h2>Describe the intent</h2><p>Mistral creates a draft. Your approval controls activation.</p></div><span class="badge lavender">AI ASSIST</span></div><label for="intent">Pricing instruction</label><textarea id="intent" rows="4" placeholder="For loyalty customers, reduce the price by 3% at priority 4."></textarea><button class="button secondary full" id="copilotBtn">Generate a rule draft</button><div id="copilotResult" class="muted-text"></div><div class="divider"></div><h3>Candidate configuration</h3><p class="muted-text">Review or edit the complete configuration. The existing strategy stays active until you compare and approve.</p><textarea id="candidateJson" rows="12" spellcheck="false" aria-label="Candidate configuration JSON"></textarea><button class="button quiet small" id="resetCandidate">Reset candidate to active strategy</button></div>
+      </div>
+      <div class="panel"><div class="panel-head"><div><h2>Compare before you activate</h2><p>Both strategies receive the same contexts and evaluation date.</p></div><span class="step">03</span></div><div class="comparison-tools"><button id="sampleCases" class="button quiet">Load generated scenario grid</button><label class="button quiet file-button">Load scenarios JSON<input type="file" id="caseFile" accept=".json,application/json" hidden></label><span id="caseSource" class="muted-text">No scenarios loaded</span></div><textarea id="comparisonCases" rows="5" spellcheck="false" aria-label="Comparison scenarios JSON"></textarea><div class="form-footer"><span class="muted-text">At most 250 scenarios. No revenue-lift claim.</span><button id="compareBtn" class="button primary">Compare strategies</button></div><div id="comparisonResult"></div></div>
+    </section>
+
+    <section id="page-insights" class="page" hidden><div id="analyticsContent"></div></section>
+    <section id="page-history" class="page" hidden><div class="panel"><div class="panel-head"><div><h2>Strategy version history</h2><p>A restoration creates a new version. Earlier snapshots remain available.</p></div></div><div id="versionList"></div></div></section>
+    <section id="page-models" class="page" hidden><div id="modelContent"></div></section>
+    <footer class="footer"><span>Monetize360 · Configure once. Explain every decision.</span><span id="engineLabel">Original engine preserved</span></footer>
+  </main>
+</div>
+<dialog id="authDialog"><form id="authForm"><div class="panel-head"><h2>Unlock administration</h2><button type="button" data-close="authDialog" class="icon-button" aria-label="Close">×</button></div><p>Use the key from <code>python scripts/studio_setup.py --show-key</code>. It is kept only in this browser tab’s memory.</p><label for="adminKey">Administration key</label><input id="adminKey" type="password" required autocomplete="off"><button class="button primary full" type="submit">Unlock</button><p id="authError" class="error-text"></p></form></dialog>
+<dialog id="importDialog"><div class="panel-head"><h2>Import a domain package</h2><button data-close="importDialog" class="icon-button" aria-label="Close">×</button></div><p>Choose a domain JSON containing attributes, rules and constraints. For the live demo, use <code>demo_staging/studio_parking.json</code>.</p><input id="domainFile" type="file" accept=".json,application/json"><textarea id="importJson" rows="12" aria-label="Domain package JSON"></textarea><button id="confirmImport" class="button primary full">Validate & import domain</button></dialog>
+<div id="toast" class="toast" role="status" hidden></div>
+<script src="./studio.js" defer></script>
+</body></html>

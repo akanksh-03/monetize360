@@ -1,0 +1,75 @@
+{
+  "version": 3,
+  "timestamp": "2026-10-03T12:40:14.960834+00:00",
+  "action": "rollback to v1",
+  "ruleset": {
+    "domain": "ecommerce",
+    "base_price_field": "base_price",
+    "rules": [
+      {
+        "id": "ec_001",
+        "conditions": [
+          {
+            "field": "inventory_pct",
+            "op": "<",
+            "value": 0.2
+          }
+        ],
+        "action": {
+          "type": "percent_increase",
+          "value": 8
+        },
+        "priority": 1
+      },
+      {
+        "id": "ec_002",
+        "conditions": [
+          {
+            "field": "inventory_pct",
+            "op": ">",
+            "value": 0.8
+          }
+        ],
+        "action": {
+          "type": "percent_decrease",
+          "value": 12
+        },
+        "priority": 1
+      },
+      {
+        "id": "ec_003",
+        "conditions": [
+          {
+            "field": "demand_score",
+            "op": ">",
+            "value": 0.7
+          }
+        ],
+        "action": {
+          "type": "percent_increase",
+          "value": 6
+        },
+        "priority": 2
+      },
+      {
+        "id": "ec_004",
+        "conditions": [
+          {
+            "field": "customer_segment",
+            "op": "==",
+            "value": "loyalty"
+          }
+        ],
+        "action": {
+          "type": "percent_decrease",
+          "value": 5
+        },
+        "priority": 3
+      }
+    ],
+    "constraints": {
+      "max_price_field": "mrp",
+      "min_price_multiplier_of_cost": 1.05
+    }
+  }
+}

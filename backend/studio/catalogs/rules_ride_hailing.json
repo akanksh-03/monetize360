@@ -1,0 +1,131 @@
+{
+  "domain": "ride_hailing",
+  "base_price_field": "base_fare",
+  "rules": [
+    {
+      "id": "rh_001",
+      "conditions": [
+        {
+          "field": "demand_supply_ratio",
+          "op": ">",
+          "value": 1.5
+        },
+        {
+          "field": "demand_supply_ratio",
+          "op": "<=",
+          "value": 2.5
+        }
+      ],
+      "action": {
+        "type": "percent_increase",
+        "value": 30
+      },
+      "priority": 1
+    },
+    {
+      "id": "rh_002",
+      "conditions": [
+        {
+          "field": "demand_supply_ratio",
+          "op": ">",
+          "value": 2.5
+        }
+      ],
+      "action": {
+        "type": "percent_increase",
+        "value": 60
+      },
+      "priority": 1
+    },
+    {
+      "id": "rh_003",
+      "conditions": [
+        {
+          "field": "is_raining",
+          "op": "==",
+          "value": true
+        }
+      ],
+      "action": {
+        "type": "percent_increase",
+        "value": 15
+      },
+      "priority": 2
+    },
+    {
+      "id": "rh_004",
+      "conditions": [
+        {
+          "field": "is_rush_hour",
+          "op": "==",
+          "value": true
+        }
+      ],
+      "action": {
+        "type": "percent_increase",
+        "value": 10
+      },
+      "priority": 2
+    },
+    {
+      "id": "rh_005",
+      "conditions": [
+        {
+          "field": "demand_supply_ratio",
+          "op": "<",
+          "value": 0.8
+        }
+      ],
+      "action": {
+        "type": "percent_decrease",
+        "value": 10
+      },
+      "priority": 3
+    }
+  ],
+  "constraints": {
+    "max_multiplier": 2.0,
+    "min_multiplier": 0.5,
+    "driver_payout_floor": 0.8
+  },
+  "studio": {
+    "label": "Ride-hailing",
+    "currency": "INR",
+    "timezone": "Asia/Kolkata",
+    "description": "Demand, rain and rush-hour adjustments. Payout check is separate from fare calculation.",
+    "signal_bindings": {
+      "weather": "is_raining"
+    },
+    "fields": {
+      "base_fare": {
+        "label": "Base fare",
+        "type": "number",
+        "default": 100,
+        "min": 0,
+        "required": true,
+        "unit": "INR"
+      },
+      "demand_supply_ratio": {
+        "label": "Demand / supply",
+        "type": "number",
+        "default": 1.8,
+        "min": 0,
+        "max": 20,
+        "step": 0.1,
+        "required": true
+      },
+      "is_raining": {
+        "label": "Raining",
+        "type": "boolean",
+        "default": true,
+        "required": true
+      },
+      "is_rush_hour": {
+        "label": "Rush hour",
+        "type": "boolean",
+        "default": false,
+        "required": true
+      }
+    }
+  }
+}

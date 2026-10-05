@@ -1,0 +1,97 @@
+{
+  "domain": "hotel",
+  "base_price_field": "base_price",
+  "rules": [
+    {
+      "id": "ht_001",
+      "conditions": [
+        {
+          "field": "occupancy_pct",
+          "op": ">",
+          "value": 0.8
+        }
+      ],
+      "action": {
+        "type": "percent_increase",
+        "value": 20
+      },
+      "priority": 1
+    },
+    {
+      "id": "ht_002",
+      "conditions": [
+        {
+          "field": "is_weekend",
+          "op": "==",
+          "value": true
+        }
+      ],
+      "action": {
+        "type": "percent_increase",
+        "value": 15
+      },
+      "priority": 2
+    },
+    {
+      "id": "ht_003",
+      "conditions": [
+        {
+          "field": "season",
+          "op": "==",
+          "value": "peak"
+        }
+      ],
+      "action": {
+        "type": "percent_increase",
+        "value": 25
+      },
+      "priority": 2
+    }
+  ],
+  "constraints": {
+    "max_multiplier": 2.0,
+    "min_multiplier": 0.6
+  },
+  "studio": {
+    "label": "Hospitality",
+    "currency": "INR",
+    "timezone": "Asia/Kolkata",
+    "description": "Illustrative occupancy, weekend and seasonality strategy. Adjustment percentages are business assumptions.",
+    "fields": {
+      "base_price": {
+        "label": "Nightly base rate",
+        "type": "number",
+        "default": 3000,
+        "min": 0,
+        "required": true,
+        "unit": "INR"
+      },
+      "occupancy_pct": {
+        "label": "Occupancy",
+        "type": "number",
+        "default": 0.85,
+        "min": 0,
+        "max": 1,
+        "step": 0.01,
+        "required": true
+      },
+      "is_weekend": {
+        "label": "Weekend stay",
+        "type": "boolean",
+        "default": true,
+        "required": true
+      },
+      "season": {
+        "label": "Season",
+        "type": "string",
+        "default": "peak",
+        "options": [
+          "low",
+          "regular",
+          "peak"
+        ],
+        "required": true
+      }
+    }
+  }
+}

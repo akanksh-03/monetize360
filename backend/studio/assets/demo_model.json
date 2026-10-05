@@ -1,0 +1,124 @@
+{
+  "source": "synthetic_demo",
+  "model_version": "5f5acc626afc774e",
+  "selected_model": "LinearRegression",
+  "target": "Synthetic demand index (0\u20131); not observed sales or real market demand",
+  "features": [
+    "traffic_index",
+    "promotion",
+    "competitor_price_ratio",
+    "hour_sin"
+  ],
+  "random_seed": 20261005,
+  "split": {
+    "training": 980,
+    "anomaly_calibration": 210,
+    "test": 210
+  },
+  "selection": "5-fold CV on training only; preprocessing fitted inside each fold",
+  "candidates": [
+    {
+      "model": "LinearRegression",
+      "cv_mae_mean": 0.03676470233100468,
+      "cv_mae_std": 0.0013520040794402209,
+      "cv_rmse_mean": 0.045870755150077595,
+      "fold_mae": [
+        0.0380259604562702,
+        0.03766317050703678,
+        0.03695314162289906,
+        0.03456076692161736,
+        0.036620472147199996
+      ]
+    },
+    {
+      "model": "PolynomialRidge",
+      "cv_mae_mean": 0.03708646646734694,
+      "cv_mae_std": 0.001000033435687489,
+      "cv_rmse_mean": 0.04619199653553245,
+      "fold_mae": [
+        0.03820687159554208,
+        0.03770071267629787,
+        0.03699458999013504,
+        0.03555449282649675,
+        0.03697566524826297
+      ]
+    },
+    {
+      "model": "MLP",
+      "cv_mae_mean": 0.0370958297236411,
+      "cv_mae_std": 0.002066671168649361,
+      "cv_rmse_mean": 0.04628475975953209,
+      "fold_mae": [
+        0.0396570934885346,
+        0.03793166181463465,
+        0.03747850343050506,
+        0.034079875810298005,
+        0.03633201407423317
+      ]
+    }
+  ],
+  "test_metrics": {
+    "mae": 0.0384531476886809,
+    "rmse": 0.04841365908537224,
+    "r2": 0.9070006091927937,
+    "mean_baseline_mae": 0.1320023196556937
+  },
+  "anomaly_threshold": 8.698909029857925,
+  "anomaly_threshold_method": "99th percentile of held-out nominal calibration distances",
+  "anomaly_limit": "Out-of-distribution heuristic, not a calibrated probability of incorrect pricing",
+  "model": {
+    "kind": "LinearRegression",
+    "mean": [
+      0.5083516214608949,
+      0.31326530612244896,
+      0.9944977743903803,
+      -0.0168903315847438
+    ],
+    "scale": [
+      0.2905557700391688,
+      0.4638212623186636,
+      0.11482034610469939,
+      0.7112154136790478
+    ],
+    "coefficients": [
+      0.46405885413401937,
+      0.1470901942402501,
+      0.05290613135475218,
+      -0.015409909913346495,
+      0.026690956872284302
+    ]
+  },
+  "feature_center": [
+    0.5083516214608949,
+    0.31326530612244896,
+    0.9944977743903803,
+    -0.0168903315847438
+  ],
+  "covariance_inverse": [
+    [
+      11.864333905217235,
+      0.2755337692833045,
+      1.0345591534233698,
+      -0.05237026432942441
+    ],
+    [
+      0.27553376928330364,
+      4.652355260523605,
+      -0.4169295693487501,
+      -0.0014425421574210738
+    ],
+    [
+      1.0345591534233713,
+      -0.41692956934873004,
+      75.87203365688462,
+      0.21117565265067637
+    ],
+    [
+      -0.05237026432942415,
+      -0.0014425421574204556,
+      0.2111756526506647,
+      1.9757484134615102
+    ]
+  ],
+  "limitations": "All reported metrics describe the seeded synthetic dataset only. Use an external adapter for your existing model."
+}

@@ -455,7 +455,27 @@ function renderLedger(d, ms) {
     <div class="row" style="margin-top:8px"><div>Base price</div><div class="amt">${money(base)}</div></div>
     ${rows || `<div class="row"><div><div>No rules matched</div><div class="mut">The base price applies unchanged.</div></div><div></div></div>`}
     <div class="row total"><div>Final price</div><div class="amt">${money(fin)}</div></div>
-    ${d.predicted_fields && Object.keys(d.predicted_fields).length ? `<div class="note"><b>AI-predicted input:</b> ${Object.entries(d.predicted_fields).map(([k, v]) => `${esc(lab(k))}: <b>${esc(v)}</b>`).join(", ")}</div>` : ""}
+    ${d.predicted_fields && Object.keys(d.predicted_fields).length ? `
+  <div class="note">
+    <b>🤖 AI Analysis</b>
+    <div style="margin-top:8px">
+      ${Object.entries(d.predicted_fields)
+        .map(([k, v]) => `${esc(lab(k))}: <b>${esc(v)}</b>`)
+        .join("<br>")}
+    </div>
+
+    ${d.anomaly ? `
+      <div style="margin-top:10px">
+        Anomaly check:
+        <b>${d.anomaly.is_anomaly ? "⚠️ Unusual scenario" : "✓ Normal scenario"}</b>
+      </div>
+      <div class="mut" style="margin-top:4px">
+        Anomaly distance: ${Number(d.anomaly.distance).toFixed(3)}
+        / threshold: ${Number(d.anomaly.threshold).toFixed(3)}
+      </div>
+    ` : ""}
+  </div>
+` : ""}
     ${cons.length ? `<div class="note warn"><b>Price limit applied:</b> ${cons.join(", ")}</div>` : ""}
     ${d.conflict ? `<div class="note bad"><b>Rule conflict:</b> ${esc((d.conflicting_rules || []).map(tidy).join(", "))} share a priority but move the price in opposite directions. Give them different priorities.</div>` : ""}`;
 }
